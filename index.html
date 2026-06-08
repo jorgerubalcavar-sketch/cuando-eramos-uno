@@ -12,8 +12,11 @@
       :root {
         --black: #050505;
         --night: #0d1218;
+        --deep: #11100c;
         --gold: #f5d38b;
+        --gold-soft: rgba(245, 211, 139, 0.18);
         --cream: #fff7e3;
+        --muted: rgba(255, 247, 227, 0.72);
         --line: rgba(255, 255, 255, 0.12);
       }
 
@@ -42,7 +45,7 @@
         inset: 0;
         z-index: 5;
         pointer-events: none;
-        opacity: 0.16;
+        opacity: 0.14;
         background-image: linear-gradient(transparent, rgba(255, 215, 100, 0.16));
         animation: rain 0.38s linear infinite;
       }
@@ -60,7 +63,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 10;
+        z-index: 20;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -68,7 +71,7 @@
         gap: 24px;
         padding: 18px clamp(18px, 5vw, 70px);
         color: var(--cream);
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72), transparent);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.76), transparent);
       }
 
       .brand {
@@ -94,30 +97,92 @@
         color: var(--gold);
       }
 
-      .hero {
+      .hero,
+      .chapter {
         position: relative;
+        overflow: hidden;
+        border-top: 1px solid var(--line);
+      }
+
+      .hero {
         min-height: 100vh;
         display: grid;
         align-items: center;
-        padding: 120px clamp(22px, 8vw, 118px) 80px;
+        padding: 120px clamp(22px, 8vw, 118px) 86px;
         background:
-          radial-gradient(circle at 35% 45%, rgba(245, 211, 139, 0.24), rgba(0, 0, 0, 0.62) 38%, rgba(0, 0, 0, 0.98) 100%),
+          radial-gradient(circle at 44% 44%, rgba(245, 211, 139, 0.28), rgba(0, 0, 0, 0.54) 34%, rgba(0, 0, 0, 0.98) 100%),
           url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1800&auto=format&fit=crop");
         background-size: cover;
         background-position: center;
       }
 
-      .hero::after {
+      .hero::after,
+      .chapter::after {
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.7));
+        background:
+          linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.82)),
+          radial-gradient(circle at 70% 30%, rgba(245, 211, 139, 0.12), transparent 42%);
       }
 
-      .hero-content {
-        position: relative;
+      .thread-field {
+        position: absolute;
+        inset: 0;
         z-index: 1;
-        max-width: 980px;
+        pointer-events: none;
+        opacity: 0.82;
+      }
+
+      .thread-field span {
+        position: absolute;
+        height: 2px;
+        width: 44vw;
+        min-width: 260px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, transparent, rgba(245, 211, 139, 0.9), transparent);
+        box-shadow: 0 0 18px rgba(245, 211, 139, 0.5), 0 0 44px rgba(245, 211, 139, 0.16);
+        transform-origin: center;
+        animation: pulse 5.6s ease-in-out infinite;
+      }
+
+      .thread-field span:nth-child(1) {
+        top: 24%;
+        left: 45%;
+        transform: rotate(20deg);
+      }
+
+      .thread-field span:nth-child(2) {
+        top: 45%;
+        left: 52%;
+        transform: rotate(-18deg);
+        animation-delay: -1.4s;
+      }
+
+      .thread-field span:nth-child(3) {
+        top: 68%;
+        left: 37%;
+        transform: rotate(9deg);
+        animation-delay: -2.8s;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 0.36;
+          filter: blur(0);
+        }
+        50% {
+          opacity: 1;
+          filter: blur(0.6px);
+        }
+      }
+
+      .hero-content,
+      .chapter-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 1060px;
       }
 
       .eyebrow,
@@ -138,38 +203,41 @@
       }
 
       h1 {
-        max-width: 960px;
+        max-width: 1000px;
         margin-bottom: 28px;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(52px, 9vw, 116px);
+        font-size: clamp(56px, 10vw, 128px);
         font-weight: 500;
-        line-height: 0.95;
+        line-height: 0.92;
         text-shadow:
-          0 0 12px rgba(255, 215, 100, 0.22),
-          0 0 46px rgba(255, 215, 100, 0.14);
+          0 0 12px rgba(255, 215, 100, 0.28),
+          0 0 56px rgba(255, 215, 100, 0.18);
       }
 
       h2 {
+        max-width: 920px;
         margin-bottom: 22px;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(34px, 5vw, 62px);
+        font-size: clamp(36px, 5.4vw, 72px);
         font-weight: 500;
-        line-height: 1.04;
+        line-height: 1.02;
       }
 
       h3 {
         margin-bottom: 10px;
         color: var(--gold);
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 28px;
+        font-size: 27px;
         font-weight: 500;
       }
 
-      .hero p {
-        max-width: 760px;
-        color: rgba(255, 247, 227, 0.84);
-        font-size: clamp(19px, 2.2vw, 27px);
-        line-height: 1.65;
+      .hero p,
+      .chapter p,
+      .section p {
+        max-width: 850px;
+        color: var(--muted);
+        font-size: clamp(18px, 2vw, 23px);
+        line-height: 1.75;
       }
 
       .hero-actions {
@@ -202,44 +270,92 @@
         background: rgba(255, 255, 255, 0.08);
       }
 
+      .chapter {
+        min-height: 92vh;
+        display: grid;
+        align-items: center;
+        padding: 110px clamp(22px, 10vw, 150px);
+        background-size: cover;
+        background-position: center;
+      }
+
+      .chapter.universe {
+        background-image:
+          radial-gradient(circle at 65% 42%, var(--gold-soft), rgba(0, 0, 0, 0.8) 42%),
+          url("https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter.earth {
+        background-image:
+          radial-gradient(circle at 64% 38%, rgba(245, 211, 139, 0.2), rgba(0, 0, 0, 0.78) 44%),
+          url("https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter.humanity {
+        background-image:
+          radial-gradient(circle at 70% 38%, rgba(245, 211, 139, 0.26), rgba(0, 0, 0, 0.76) 45%),
+          url("https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter.lie {
+        background-image:
+          radial-gradient(circle at 70% 38%, rgba(183, 72, 54, 0.22), rgba(0, 0, 0, 0.82) 43%),
+          url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter.babel {
+        background-image:
+          radial-gradient(circle at 72% 40%, rgba(245, 211, 139, 0.15), rgba(0, 0, 0, 0.86) 43%),
+          url("https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter.fragmentation {
+        background-image:
+          radial-gradient(circle at 70% 40%, rgba(245, 211, 139, 0.1), rgba(0, 0, 0, 0.9) 45%),
+          url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1800&auto=format&fit=crop");
+      }
+
+      .chapter-note {
+        display: inline-flex;
+        margin-top: 20px;
+        padding: 10px 14px;
+        border: 1px solid rgba(245, 211, 139, 0.28);
+        border-radius: 999px;
+        color: rgba(255, 247, 227, 0.78);
+        background: rgba(0, 0, 0, 0.28);
+        font-size: 14px;
+      }
+
       .section {
         padding: clamp(76px, 10vw, 130px) clamp(22px, 10vw, 150px);
         border-top: 1px solid var(--line);
       }
 
-      .section p {
-        max-width: 850px;
-        color: #ddd;
-        font-size: 20px;
-        line-height: 1.8;
-      }
-
-      .intro {
+      .book-section {
         background:
-          linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.94)),
-          url("https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1800&auto=format&fit=crop");
-        background-size: cover;
-        background-position: center;
+          radial-gradient(circle at 16% 8%, rgba(245, 211, 139, 0.12), transparent 34%),
+          linear-gradient(180deg, #090909, #12100c);
       }
 
-      .dark {
-        background: radial-gradient(circle at top left, rgba(245, 211, 139, 0.1), transparent 38%), var(--night);
-      }
-
-      .timeline,
+      .concept-grid,
+      .episode-grid,
       .story-grid {
         display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 18px;
         margin-top: 42px;
       }
 
+      .concept-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .episode-grid,
       .story-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
       }
 
       .card {
-        min-height: 310px;
+        min-height: 270px;
         padding: 28px;
         border: 1px solid var(--line);
         border-radius: 18px;
@@ -255,34 +371,19 @@
 
       .card span {
         display: inline-flex;
-        margin-bottom: 44px;
-        color: rgba(245, 211, 139, 0.7);
+        margin-bottom: 38px;
+        color: rgba(245, 211, 139, 0.72);
         font-weight: 800;
       }
 
       .card p {
         color: rgba(255, 247, 227, 0.74);
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.65;
       }
 
-      .project {
-        display: grid;
-        grid-template-columns: minmax(280px, 0.78fr) minmax(280px, 1fr);
-        gap: 34px;
-        background: #0a0a0a;
-      }
-
-      .project strong {
-        color: var(--cream);
-      }
-
-      .stories {
-        background: linear-gradient(180deg, #070707, #10151b);
-      }
-
-      .story-card {
-        min-height: 230px;
+      .shorts {
+        background: radial-gradient(circle at 84% 12%, rgba(245, 211, 139, 0.12), transparent 36%), #070707;
       }
 
       .story-card a {
@@ -317,18 +418,14 @@
           display: none;
         }
 
-        .project,
-        .story-grid,
-        .timeline {
+        .concept-grid,
+        .episode-grid,
+        .story-grid {
           grid-template-columns: 1fr;
         }
 
         .card {
           min-height: auto;
-        }
-
-        .card span {
-          margin-bottom: 24px;
         }
       }
 
@@ -337,14 +434,18 @@
           padding: 16px 18px;
         }
 
-        .hero {
-          padding: 100px 20px 74px;
+        .hero,
+        .chapter {
+          min-height: 86vh;
+          padding: 98px 20px 72px;
         }
 
         .section {
           padding: 70px 20px;
         }
 
+        .hero p,
+        .chapter p,
         .section p {
           font-size: 18px;
         }
@@ -362,144 +463,218 @@
     <header class="site-header">
       <a href="#inicio" class="brand">Cuando éramos uno</a>
       <nav aria-label="Navegación principal">
-        <a href="#origen">Origen</a>
-        <a href="#caida">Caída</a>
-        <a href="#timeline">Línea del tiempo</a>
-        <a href="#historia">Comenzar</a>
+        <a href="#video-1">Video 1</a>
+        <a href="#video-2">Video 2</a>
+        <a href="#video-3">Video 3</a>
+        <a href="#tratado">Tratado</a>
       </nav>
     </header>
 
     <main id="inicio">
       <section class="hero">
+        <div class="thread-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div class="hero-content">
           <p class="eyebrow">Universo narrativo de Jorge Rubalcava Ríos</p>
-          <h1>Antes de la vida, el universo dormía.</h1>
+          <h1>Cuando éramos uno</h1>
           <p>
-            Las partes del universo estaban demasiado separadas para sentirse.
-            Entonces comenzaron a unirse, y al unirse, el Todo empezó a despertar.
+            El inicio debe sentirse como descubrimiento: primero el universo dormido,
+            después la diversidad, luego la Tierra madre y finalmente la primera
+            humanidad como hijo amado.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#historia">Comenzar la historia</a>
-            <a class="button secondary" href="#timeline">Ver el mito</a>
+            <a class="button primary" href="#video-1">Entrar al origen</a>
+            <a class="button secondary" href="#tratado">Ver el tratado</a>
           </div>
         </div>
       </section>
 
-      <section class="section intro" id="origen">
-        <p class="section-label">El mundo antes de la separación</p>
-        <h2>Hubo una Tierra que no era escenario, sino madre.</h2>
-        <p>
-          Antes de las palabras, existió una humanidad conectada con la Tierra,
-          la lluvia y toda forma de vida. No existía la mentira, el ego ni la
-          sensación de estar separados del mundo.
-        </p>
-        <p>
-          La materia no era muda. La piedra, el agua, los árboles, los animales y
-          el cuerpo humano participaban de una misma red sensible: una conciencia
-          compartida sin perder la diferencia de cada ser.
-        </p>
+      <section class="chapter universe" id="video-1">
+        <div class="thread-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="chapter-inner">
+          <p class="section-label">Video 1 · Las partes separadas</p>
+          <h2>Al principio, las partes estaban demasiado separadas para sentirse.</h2>
+          <p>
+            Se movían. Chocaban. Cambiaban. Pero todavía no podían mirarse.
+            Entonces comenzaron a unirse, y al unirse aparecieron posibilidades nuevas.
+          </p>
+          <p>
+            La consciencia no nació como dominio. Nació como relación: una partícula
+            no podía sentir sola lo que muchas juntas empezaron a descubrir.
+          </p>
+          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKWbh6/" target="_blank" rel="noopener">Ver video 1 en TikTok</a>
+        </div>
       </section>
 
-      <section class="section" id="caida">
-        <p class="section-label">La caída del Uno</p>
-        <h2>Cuando el cielo se abrió, nació la distancia.</h2>
-        <p>
-          La llegada de visitantes alteró el curso de la humanidad. Con ellos
-          llegaron el lenguaje, la división, la posesión y el olvido de la
-          consciencia compartida.
-        </p>
-        <p>
-          Desde entonces, casi todo lo que llamamos historia ha sido un intento
-          de explicar la herida sin recordar el cuerpo entero.
-        </p>
+      <section class="chapter universe" id="video-2">
+        <div class="thread-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="chapter-inner">
+          <p class="section-label">Video 2 · El nacimiento de la diversidad</p>
+          <h2>La vida siempre quiso más: más movimiento, más memoria, más experiencia.</h2>
+          <p>
+            Mientras más se unían las partes, más profundamente podía sentirse el
+            universo a sí mismo. La diversidad verdadera no nació de la separación
+            absoluta: nació de una unión capaz de respetar diferencia.
+          </p>
+          <p>
+            Estrellas, galaxias, océanos y mundos vivos siguieron el mismo impulso:
+            experimentar más vida sin dejar de ser distintos.
+          </p>
+          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKGErv/" target="_blank" rel="noopener">Ver video 2 en TikTok</a>
+        </div>
       </section>
 
-      <section class="section dark" id="timeline">
-        <p class="section-label">Línea del tiempo</p>
-        <h2>Cuatro heridas del recuerdo.</h2>
+      <section class="chapter earth" id="video-3">
+        <div class="thread-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="chapter-inner">
+          <p class="section-label">Video 3 · La Tierra como madre amorosa</p>
+          <h2>La Tierra no era una roca vacía viajando por el espacio.</h2>
+          <p>
+            Era una consciencia aprendiendo a cuidar. Cubrió el cielo con nubes
+            eternas para suavizar la luz. No conocíamos noche. No conocíamos oscuridad.
+          </p>
+          <p>
+            La lluvia caía tibia sobre océanos y selvas gigantes. No era castigo.
+            Era conversación entre cielo y suelo.
+          </p>
+          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKnHpf/" target="_blank" rel="noopener">Ver video 3 en TikTok</a>
+        </div>
+      </section>
 
-        <div class="timeline">
+      <section class="chapter humanity" id="video-4">
+        <div class="thread-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="chapter-inner">
+          <p class="section-label">Video 4 · La primera humanidad como hijo amado</p>
+          <h2>Entonces llegaron los primeros humanos.</h2>
+          <p>
+            La Tierra los amó de una forma especial porque podían explorar, jugar
+            y amar junto con toda la creación. Los animales no eran inferiores.
+            Eran otras formas de consciencia.
+          </p>
+          <p>
+            Todo estaba conectado por una Resonancia viva: humanos, árboles, ríos,
+            piedras, animales, lluvia y fuego terrestre. La Unidad todavía respiraba.
+          </p>
+          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMENJSk/" target="_blank" rel="noopener">Ver video 4 en TikTok</a>
+        </div>
+      </section>
+
+      <section class="section shorts" id="siguientes">
+        <p class="section-label">Próximos videos</p>
+        <h2>La narración seguirá creciendo en secuencia.</h2>
+        <p>
+          Después de la humanidad primordial vendrán la primera mentira, Babel, la
+          Fragmentación, los visitantes, la piedra que recuerda, los templos, el
+          sacrificio, la falsa apoteosis y el regreso. La página está preparada para
+          agregar cada video como una nueva parte del relato.
+        </p>
+
+        <div class="episode-grid">
           <article class="card">
-            <span>01</span>
-            <h3>Antes de las estrellas</h3>
-            <p>
-              La Tierra vivía bajo cielos eternos de luz cálida. No existía la
-              noche, porque la Madre dosificaba la luz.
-            </p>
+            <span>05</span>
+            <h3>La primera mentira</h3>
+            <p>Cuando sentir, pensar, decir y actuar dejaron de ser un solo movimiento.</p>
           </article>
-
           <article class="card">
-            <span>02</span>
-            <h3>Todo podía sentirse</h3>
-            <p>
-              Toda existencia compartía resonancia y consciencia viva. Nada era
-              recurso: todo era relación.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>03</span>
-            <h3>Cuando el cielo se abrió</h3>
-            <p>
-              Las naves rompieron el cielo por primera vez. La oscuridad llegó de
-              golpe y el arriba se volvió misterio.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>04</span>
+            <span>06</span>
             <h3>Babel</h3>
+            <p>La palabra salvó memoria, pero también reemplazó la experiencia viva.</p>
+          </article>
+          <article class="card">
+            <span>07</span>
+            <h3>La Fragmentación</h3>
+            <p>La diferencia dejó de sentirse vinculada al origen común.</p>
+          </article>
+          <article class="card">
+            <span>08</span>
+            <h3>La piedra recuerda</h3>
+            <p>La materia no está muerta: está estabilizada, esperando relación.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section book-section" id="tratado">
+        <p class="section-label">Tratado filosófico</p>
+        <h2>La filosofía que rige este universo.</h2>
+        <p>
+          El tratado ordena lo que la historia muestra como mito: la realidad es el
+          Todo organizándose en formas cada vez más capaces de sentirse a sí mismas
+          sin destruir su diferencia. La tragedia es la Fragmentación: una parte del
+          Todo se experimenta como separada y convierte la relación en dominio.
+        </p>
+
+        <div class="concept-grid">
+          <article class="card">
+            <span>01</span>
+            <h3>Unidad</h3>
             <p>
-              La humanidad aprendió palabras y olvidó cómo sentir. El lenguaje
-              salvó memoria, pero también separó experiencia.
+              La Unidad no es uniformidad. Es diversidad en Resonancia: muchas
+              formas distintas participando de una realidad mayor.
             </p>
           </article>
-        </div>
-      </section>
 
-      <section class="section project">
-        <div>
-          <p class="section-label">El proyecto</p>
-          <h2>Una mitología espiritual y cinematográfica.</h2>
-        </div>
-        <p>
-          <strong>Cuando éramos uno</strong> mezcla ciencia ficción, filosofía,
-          simbolismo y memoria ancestral para explorar el origen de la consciencia
-          humana y nuestra desconexión con la Tierra.
-        </p>
-      </section>
-
-      <section class="section stories" id="historia">
-        <p class="section-label">Comenzar la historia</p>
-        <h2>Los primeros fragmentos del universo.</h2>
-
-        <div class="story-grid">
-          <article class="card story-card">
-            <span>01</span>
-            <h3>Antes de las estrellas</h3>
-            <p>El universo aprendía lentamente a sentirse.</p>
-            <a href="https://vt.tiktok.com/ZSQMKWbh6/" target="_blank" rel="noopener">Ver en TikTok</a>
-          </article>
-
-          <article class="card story-card">
+          <article class="card">
             <span>02</span>
-            <h3>La diversidad</h3>
-            <p>La verdadera diversidad surge de la unión, no de la separación absoluta.</p>
-            <a href="https://vt.tiktok.com/ZSQMKGErv/" target="_blank" rel="noopener">Ver en TikTok</a>
+            <h3>Fragmentación</h3>
+            <p>
+              Aparece cuando la diferencia deja de sentirse vinculada al origen
+              común. El otro se vuelve recurso, amenaza o ruido.
+            </p>
           </article>
 
-          <article class="card story-card">
+          <article class="card">
             <span>03</span>
-            <h3>Una madre</h3>
-            <p>La Tierra se dio su tiempo para cuidar y proteger la vida en su interior.</p>
-            <a href="https://vt.tiktok.com/ZSQMKnHpf/" target="_blank" rel="noopener">Ver en TikTok</a>
+            <h3>Resonancia</h3>
+            <p>
+              Es la relación viva mediante la cual una parte del Todo reconoce a
+              otra como distinta y propia a la vez.
+            </p>
           </article>
 
-          <article class="card story-card">
+          <article class="card">
             <span>04</span>
-            <h3>El hijo amado</h3>
-            <p>Surge la primera humanidad, y toda vida dentro de la Tierra la amaba.</p>
-            <a href="https://vt.tiktok.com/ZSQMENJSk/" target="_blank" rel="noopener">Ver en TikTok</a>
+            <h3>Materia viva</h3>
+            <p>
+              La materia no está absolutamente fija: está estabilizada. La Resonancia
+              reconoce que toda estabilidad guarda posibilidad.
+            </p>
+          </article>
+
+          <article class="card">
+            <span>05</span>
+            <h3>Ética</h3>
+            <p>
+              El bien aumenta vida, relación, verdad y Resonancia sin destruir
+              diferencia. La mentira reduce mundo, aunque calme.
+            </p>
+          </article>
+
+          <article class="card">
+            <span>06</span>
+            <h3>Segunda Unidad</h3>
+            <p>
+              La meta no es regresar a una inocencia infantil, sino alcanzar una
+              Unidad libre y consciente.
+            </p>
           </article>
         </div>
       </section>
