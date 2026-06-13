@@ -8,7 +8,7 @@ const VIDEO_LIBRARY = [
     status: "disponible",
     description:
       "Cosmología viva, Tierra madre, primera humanidad, materia confiada y llegada de la noche.",
-    poster: "assets/video/video-largo-1-poster.jpg",
+    poster: "video-largo-1-poster.jpg",
     youtube: {
       label: "YouTube",
       url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
@@ -75,7 +75,7 @@ const VIDEO_LIBRARY = [
     status: "en desarrollo",
     description:
       "Tierra viva, materia joven, animales, conocimiento por unión, símbolos y silencio.",
-    poster: "assets/piedra-recibe-primordial.png",
+    poster: "piedra-recibe-primordial.png",
     youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
@@ -87,7 +87,7 @@ const VIDEO_LIBRARY = [
     status: "reservado",
     description:
       "Los visitantes llegan buscando salvar su mundo, pero traen una frecuencia nacida del miedo.",
-    poster: "assets/cielo-abierto-estrellas.png",
+    poster: "cielo-abierto-estrellas.png",
     youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
@@ -99,7 +99,7 @@ const VIDEO_LIBRARY = [
     status: "en desarrollo",
     description:
       "Ideologías, carencia, ego moderno, dolor, compasión y la nostalgia del regreso.",
-    poster: "assets/ecosistema-unidad.png",
+    poster: "ecosistema-unidad.png",
     youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
@@ -296,7 +296,7 @@ const STORY_STEPS = [
     title: "La Tierra dosificó la luz.",
     text:
       "Antes de la noche visible, la Tierra cubrió el cielo con nubes luminosas. No ocultaba el mundo: lo cuidaba.",
-    image: "assets/tierra-vientre-nubes.png",
+    image: "tierra-vientre-nubes.png",
     alt: "Tierra primigenia envuelta en nubes luminosas como vientre protector.",
   },
   {
@@ -305,7 +305,7 @@ const STORY_STEPS = [
     title: "Nunca necesitaron multitudes para estar unidos.",
     text:
       "Los primordiales vivían en tríadas: pequeño, joven y adulto. Separados por mares, seguían sintiendo una misma red.",
-    image: "assets/triada-primordial-lluvia.png",
+    image: "triada-primordial-lluvia.png",
     alt: "Tres humanos primordiales bajo lluvia cálida.",
   },
   {
@@ -314,7 +314,7 @@ const STORY_STEPS = [
     title: "La materia confiaba.",
     text:
       "La piedra no era esclava ni objeto muerto. Era joven, inocente, abierta. Se reconocía en el humano y respondía sin esperar traición.",
-    image: "assets/piedra-recibe-primordial.png",
+    image: "piedra-recibe-primordial.png",
     alt: "Piedra viva suavizando su forma para recibir a un primordial.",
   },
   {
@@ -323,7 +323,7 @@ const STORY_STEPS = [
     title: "La Tierra hablaba desde todos sus Reinos.",
     text:
       "Los mares enseñaban memoria, las cavernas duración, los volcanes transformación y los animales formas distintas de presencia.",
-    image: "assets/mundos-acuaticos.png",
+    image: "mundos-acuaticos.png",
     alt: "Humanos primordiales junto a criaturas antiguas bajo el mar.",
   },
   {
@@ -332,7 +332,7 @@ const STORY_STEPS = [
     title: "La noche llegó al mundo.",
     text:
       "Cuando el cielo se abrió, las estrellas aparecieron como una herida. La oscuridad no era maldad, pero anunciaba separación.",
-    image: "assets/cielo-abierto-estrellas.png",
+    image: "cielo-abierto-estrellas.png",
     alt: "Primeras estrellas visibles sobre la Tierra primordial.",
   },
 ];
