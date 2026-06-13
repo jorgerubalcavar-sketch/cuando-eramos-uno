@@ -558,21 +558,83 @@ function setupResonanceCanvas() {
   if (!canvas || !range || !output) return;
 
   const ctx = canvas.getContext("2d");
-  const particles = Array.from({ length: 92 }, (_, index) => {
-    const angle = (index / 92) * Math.PI * 2;
-    const radius = 76 + (index % 10) * 23;
-    return {
-      angle,
-      radius,
-      seed: Math.random() * Math.PI * 2,
-      drift: 0.003 + Math.random() * 0.006,
-      x: 0,
-      y: 0,
-    };
-  });
+  const bodyPoints = createMeditationBodyPoints();
+  const particles = bodyPoints.map((point, index) => ({
+    ...point,
+    index,
+    angle: (index / bodyPoints.length) * Math.PI * 2,
+    seed: index * 1.618,
+    drift: 0.002 + ((index % 7) * 0.0007),
+    x: 0,
+    y: 0,
+  }));
 
   let resonance = Number(range.value) / 100;
   let frame = 0;
+
+  function clamp(value, min, max) {
+    return Math.min(max, Math.max(min, value));
+  }
+
+  function smoothstep(edge0, edge1, value) {
+    const t = clamp((value - edge0) / (edge1 - edge0), 0, 1);
+    return t * t * (3 - 2 * t);
+  }
+
+  function createMeditationBodyPoints() {
+    const points = [];
+
+    function addPoint(x, y, group = "body") {
+      points.push({ tx: x, ty: y, group });
+    }
+
+    function addCircle(cx, cy, radius, count, group) {
+      for (let i = 0; i < count; i += 1) {
+        const angle = (i / count) * Math.PI * 2;
+        addPoint(cx + Math.cos(angle) * radius, cy + Math.sin(angle) * radius, group);
+      }
+    }
+
+    function addCurve(fromX, fromY, toX, toY, count, bend, group) {
+      for (let i = 0; i < count; i += 1) {
+        const t = count === 1 ? 1 : i / (count - 1);
+        const x = fromX + (toX - fromX) * t;
+        const y = fromY + (toY - fromY) * t + Math.sin(t * Math.PI) * bend;
+        addPoint(x, y, group);
+      }
+    }
+
+    function addOval(cx, cy, rx, ry, count, group, start = 0, end = Math.PI * 2) {
+      for (let i = 0; i < count; i += 1) {
+        const t = count === 1 ? 0 : i / (count - 1);
+        const angle = start + (end - start) * t;
+        addPoint(cx + Math.cos(angle) * rx, cy + Math.sin(angle) * ry, group);
+      }
+    }
+
+    addCircle(0, -150, 29, 24, "head");
+    addCircle(0, -150, 12, 8, "head");
+
+    for (let i = 0; i < 32; i += 1) {
+      const t = i / 31;
+      const y = -104 + t * 138;
+      const width = 18 + Math.sin(t * Math.PI) * 36;
+      addPoint(Math.sin(t * Math.PI * 2) * 5, y, "spine");
+      addPoint(-width * 0.62, y + Math.sin(t * Math.PI) * 6, "torso");
+      addPoint(width * 0.62, y + Math.sin(t * Math.PI) * 6, "torso");
+    }
+
+    addCurve(-42, -58, -102, 52, 18, 26, "arm");
+    addCurve(42, -58, 102, 52, 18, 26, "arm");
+    addCircle(-104, 55, 9, 6, "hand");
+    addCircle(104, 55, 9, 6, "hand");
+
+    addOval(-44, 92, 118, 30, 30, "leg", Math.PI * 0.12, Math.PI * 0.94);
+    addOval(44, 92, 118, 30, 30, "leg", Math.PI * 0.06, Math.PI * 0.88);
+    addOval(0, 24, 126, 212, 44, "aura");
+
+    return points;
+  }
 
   function resizeCanvas() {
     const rect = canvas.getBoundingClientRect();
@@ -586,38 +648,68 @@ function setupResonanceCanvas() {
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
     const cx = width / 2;
-    const cy = height / 2;
+    const cy = height / 2 + 18;
+    const scale = Math.min(width / 620, height / 560);
     frame += 1;
 
     ctx.clearRect(0, 0, width, height);
 
     const bg = ctx.createRadialGradient(cx, cy, 20, cx, cy, Math.max(width, height) * 0.72);
-    bg.addColorStop(0, "rgba(31, 119, 114, 0.26)");
+    bg.addColorStop(0, `rgba(31, 119, 114, ${0.14 + resonance * 0.18})`);
     bg.addColorStop(0.46, "rgba(16, 36, 31, 0.66)");
     bg.addColorStop(1, "rgba(5, 8, 10, 1)");
     ctx.fillStyle = bg;
     ctx.fillRect(0, 0, width, height);
 
-    const spread = 1.58 - resonance * 0.94;
-    const pulse = 1 + Math.sin(frame * 0.02) * 0.04 * resonance;
+    const formation = smoothstep(0.16, 0.88, resonance);
+    const activeProgress = smoothstep(0.03, 1, resonance);
+    const visibleCount = Math.max(1, Math.round(1 + Math.pow(activeProgress, 1.08) * (particles.length - 1)));
+    const pulse = 1 + Math.sin(frame * 0.025) * 0.035 * formation;
+    const auraAlpha = smoothstep(0.54, 0.96, resonance);
 
-    for (const particle of particles) {
-      particle.angle += particle.drift * (0.4 + resonance);
-      const wave = Math.sin(frame * 0.018 + particle.seed) * 24 * (1 - resonance);
-      const r = (particle.radius * spread + wave) * pulse;
-      particle.x = cx + Math.cos(particle.angle) * r;
-      particle.y = cy + Math.sin(particle.angle) * r * 0.72;
+    if (auraAlpha > 0) {
+      ctx.save();
+      ctx.translate(cx, cy);
+      ctx.scale(scale * pulse, scale * pulse);
+      for (let i = 0; i < 3; i += 1) {
+        ctx.beginPath();
+        ctx.strokeStyle = `rgba(213, 168, 79, ${auraAlpha * (0.16 - i * 0.035)})`;
+        ctx.lineWidth = 2 + i;
+        ctx.ellipse(0, -16, 128 + i * 26, 228 + i * 34, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.restore();
     }
+
+    particles.forEach((particle, index) => {
+      particle.angle += particle.drift * (0.4 + resonance);
+      const earlyRadius = (index === 0 ? 0 : 16 + index * 2.2) * (1 - formation);
+      const spiralX = Math.cos(particle.angle + frame * 0.006) * earlyRadius;
+      const spiralY = Math.sin(particle.angle + frame * 0.006) * earlyRadius * 0.72;
+      const bodyDrift = Math.sin(frame * 0.018 + particle.seed) * (7 - formation * 5);
+      const targetX = particle.tx * scale + bodyDrift * scale;
+      const targetY = particle.ty * scale + Math.cos(frame * 0.015 + particle.seed) * 4 * scale;
+      const appear = clamp((visibleCount - index) / 8, 0, 1);
+      const merge = formation * appear;
+
+      particle.visible = appear > 0;
+      particle.alpha = appear;
+      particle.x = cx + spiralX * (1 - merge) + targetX * merge;
+      particle.y = cy + spiralY * (1 - merge) + targetY * merge;
+    });
 
     ctx.lineWidth = 1;
     for (let i = 0; i < particles.length; i += 1) {
+      if (!particles[i].visible) continue;
       for (let j = i + 1; j < particles.length; j += 1) {
         const a = particles[i];
         const b = particles[j];
+        if (!b.visible) continue;
         const distance = Math.hypot(a.x - b.x, a.y - b.y);
-        const limit = 52 + resonance * 134;
+        const sameGroup = a.group === b.group;
+        const limit = sameGroup ? 42 + formation * 28 : 24 + formation * 16;
         if (distance < limit) {
-          const alpha = (1 - distance / limit) * (0.13 + resonance * 0.36);
+          const alpha = (1 - distance / limit) * (0.08 + formation * 0.32) * Math.min(a.alpha, b.alpha);
           ctx.strokeStyle = `rgba(242, 224, 175, ${alpha})`;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -628,11 +720,26 @@ function setupResonanceCanvas() {
     }
 
     for (const particle of particles) {
+      if (!particle.visible) continue;
+      const groupBoost = particle.group === "head" || particle.group === "spine" ? 1.25 : 1;
+      const alpha = (0.38 + resonance * 0.44) * particle.alpha;
+      const radius = (2 + formation * 2.4) * groupBoost;
       ctx.beginPath();
-      ctx.fillStyle = `rgba(213, 168, 79, ${0.43 + resonance * 0.42})`;
-      ctx.shadowColor = "rgba(31, 119, 114, 0.95)";
-      ctx.shadowBlur = 2.4 + resonance * 5.2;
-      ctx.arc(particle.x, particle.y, 2.1 + resonance * 1.8, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(238, 198, 94, ${alpha})`;
+      ctx.shadowColor = particle.group === "aura" ? "rgba(213, 168, 79, 0.9)" : "rgba(31, 119, 114, 0.95)";
+      ctx.shadowBlur = 3 + resonance * 10;
+      ctx.arc(particle.x, particle.y, radius, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    if (formation > 0.72) {
+      const bodyGlow = ctx.createRadialGradient(cx, cy - 72 * scale, 18, cx, cy - 26 * scale, 190 * scale);
+      bodyGlow.addColorStop(0, `rgba(255, 247, 232, ${0.16 * formation})`);
+      bodyGlow.addColorStop(0.34, `rgba(213, 168, 79, ${0.09 * formation})`);
+      bodyGlow.addColorStop(1, "rgba(213, 168, 79, 0)");
+      ctx.fillStyle = bodyGlow;
+      ctx.beginPath();
+      ctx.ellipse(cx, cy - 28 * scale, 112 * scale, 208 * scale, 0, 0, Math.PI * 2);
       ctx.fill();
     }
 
@@ -640,7 +747,7 @@ function setupResonanceCanvas() {
     ctx.fillStyle = "rgba(255, 247, 232, 0.84)";
     ctx.font = "700 13px system-ui, sans-serif";
     ctx.fillText(
-      resonance > 0.72 ? "Unidad flexible" : resonance > 0.36 ? "Resonancia parcial" : "Fragmentación rígida",
+      resonance > 0.82 ? "Cuerpo de Unidad" : resonance > 0.42 ? "Resonancia encarnando" : "Partícula sola",
       22,
       height - 24,
     );
