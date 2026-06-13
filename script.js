@@ -1,0 +1,669 @@
+// Para actualizar un video nuevo, cambia solamente los campos youtube.url y tiktok.url
+// del capítulo correspondiente. La web enviará las vistas a cada plataforma.
+const VIDEO_LIBRARY = [
+  {
+    id: "antes-estrellas",
+    number: "Video largo 1",
+    title: "Antes de las estrellas",
+    status: "disponible",
+    description:
+      "Cosmología viva, Tierra madre, primera humanidad, materia confiada y llegada de la noche.",
+    poster: "assets/video/video-largo-1-poster.jpg",
+    youtube: {
+      label: "YouTube",
+      url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
+      fallbackSrc: "",
+      ratio: "wide",
+    },
+    tiktok: {
+      label: "TikTok",
+      url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      fallbackSrc: "",
+      ratio: "vertical",
+    },
+    clips: [
+      {
+        label: "Pieza 1",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648397881853873426?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 2",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648427430801132818?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 3",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648633777958292754?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 4",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648726281609022738?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 5",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7649396452048915730?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 6",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7649479944367656199?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 7",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7649861966307118343?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 8",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650109435020365064?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 9",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650248702992403719?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 10",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650276614911069447?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 11",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    id: "reglas-resonancia",
+    number: "Video largo 2",
+    title: "La materia confiaba",
+    status: "en desarrollo",
+    description:
+      "Tierra viva, materia joven, animales, conocimiento por unión, símbolos y silencio.",
+    poster: "assets/piedra-recibe-primordial.png",
+    youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
+    tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
+    clips: [],
+  },
+  {
+    id: "cielo-roto",
+    number: "Video largo 3",
+    title: "El cielo roto",
+    status: "reservado",
+    description:
+      "Los visitantes llegan buscando salvar su mundo, pero traen una frecuencia nacida del miedo.",
+    poster: "assets/cielo-abierto-estrellas.png",
+    youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
+    tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
+    clips: [],
+  },
+  {
+    id: "primera-mentira",
+    number: "Video largo 4",
+    title: "El mundo que inventamos",
+    status: "en desarrollo",
+    description:
+      "Ideologías, carencia, ego moderno, dolor, compasión y la nostalgia del regreso.",
+    poster: "assets/ecosistema-unidad.png",
+    youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
+    tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
+    clips: [],
+  },
+];
+
+const TIKTOK_STORY_ARCS = [
+  {
+    title: "El mundo original",
+    description:
+      "La Tierra como madre, la primera humanidad, los animales y la materia que todavía confiaba.",
+    clips: [
+      {
+        number: "Ruta 01",
+        title: "Las nubes abrazaban toda la Tierra",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7640012985313873170?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 02",
+        title: "Experimentábamos las formas con ella",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7640540568195452168?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 03",
+        title: "Nunca nos sentimos solos",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7641287687231540487?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 04",
+        title: "La materia escucha",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645907179353935111?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "El cielo roto",
+    description:
+      "La llegada de los visitantes, el miedo, la intervención y el comienzo de una humanidad fragmentada.",
+    clips: [
+      {
+        number: "Ruta 05",
+        title: "El universo chocó de frente con nosotros",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645904323813068050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 06",
+        title: "Los genetistas decidieron llevarnos dentro de sí",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645910941367897362?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 07",
+        title: "Llegaron hambre, enfermedad, miedo y muerte",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645900153303354642?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 08",
+        title: "El regalo ambiguo de las palabras",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7641761171011439880?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "Lenguaje, símbolos y templos",
+    description:
+      "Cuando la experiencia dejó de transmitirse completa, nacieron palabras, símbolos y lugares para conservar memoria.",
+    clips: [
+      {
+        number: "Ruta 09",
+        title: "No transmitíamos ideas",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7646177414892080402?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 10",
+        title: "Las palabras no contienen la verdad",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7643321999997095175?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 11",
+        title: "Los símbolos como recuerdos vivos",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7643151604350291218?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 12",
+        title: "Templos y lugares energéticos",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7642648879279656210?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "Los antiguos sobrevivientes",
+    description:
+      "Algunos no olvidaron: profetas, druidas, nahuales, sabios, monjes y guardianes del recuerdo.",
+    clips: [
+      {
+        number: "Ruta 13",
+        title: "La humanidad antigua también se dividió",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7642387616129649928?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 14",
+        title: "No todos se fueron",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7646607631133478162?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 15",
+        title: "Profetas, druidas, nahuales, sabios y monjes",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7643192865195052295?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 16",
+        title: "Todos enseñaban lo mismo",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7643225597195373842?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "El mundo que inventamos",
+    description:
+      "Propiedad, carencia, ideologías, ruido moderno y la nostalgia por volver a escuchar.",
+    clips: [
+      {
+        number: "Ruta 17",
+        title: "Posesiones, riqueza y estatus",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645898117593812232?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 18",
+        title: "Ideas nacidas de codicia de poder",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645647525067738386?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 19",
+        title: "Carencia, miedo, limitación y muerte",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7644623918971489554?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 20",
+        title: "El humano atrapado dentro de sí",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7644746155544333576?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 21",
+        title: "Nos llama volver",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645867952973106439?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 22",
+        title: "Sabían que olvidaríamos",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7646720918537964808?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "La Tierra y el dolor",
+    description:
+      "La Tierra seguía hablando, pero la humanidad empezó a necesitar dolor para volver a sentir al otro.",
+    clips: [
+      {
+        number: "Ruta 23",
+        title: "La Tierra seguía hablando",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645248213032652050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        number: "Ruta 24",
+        title: "El sufrimiento puede quebrar el ego",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645119758962035986?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+  },
+  {
+    title: "Piezas por confirmar",
+    description:
+      "Material visto en los archivos descargados, pero con enlace público dudoso o pendiente de revisar.",
+    clips: [
+      {
+        number: "Pendiente",
+        title: "Buscamos el templo afuera",
+        note: "Falta confirmar su enlace único de TikTok antes de publicarlo en la ruta.",
+      },
+      {
+        number: "Revisar",
+        title: "El guardián de mi hermano",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7646577798504598791?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+        note: "El archivo descargado tiene una cola negra larga; conviene revisar si el TikTok publicado también la conserva.",
+      },
+    ],
+  },
+];
+
+const STORY_STEPS = [
+  {
+    tab: "Tierra madre",
+    kicker: "Movimiento 1",
+    title: "La Tierra dosificó la luz.",
+    text:
+      "Antes de la noche visible, la Tierra cubrió el cielo con nubes luminosas. No ocultaba el mundo: lo cuidaba.",
+    image: "assets/tierra-vientre-nubes.png",
+    alt: "Tierra primigenia envuelta en nubes luminosas como vientre protector.",
+  },
+  {
+    tab: "Triadas",
+    kicker: "Movimiento 2",
+    title: "Nunca necesitaron multitudes para estar unidos.",
+    text:
+      "Los primordiales vivían en tríadas: pequeño, joven y adulto. Separados por mares, seguían sintiendo una misma red.",
+    image: "assets/triada-primordial-lluvia.png",
+    alt: "Tres humanos primordiales bajo lluvia cálida.",
+  },
+  {
+    tab: "Materia",
+    kicker: "Movimiento 3",
+    title: "La materia confiaba.",
+    text:
+      "La piedra no era esclava ni objeto muerto. Era joven, inocente, abierta. Se reconocía en el humano y respondía sin esperar traición.",
+    image: "assets/piedra-recibe-primordial.png",
+    alt: "Piedra viva suavizando su forma para recibir a un primordial.",
+  },
+  {
+    tab: "Profundidad",
+    kicker: "Movimiento 4",
+    title: "La Tierra hablaba desde todos sus Reinos.",
+    text:
+      "Los mares enseñaban memoria, las cavernas duración, los volcanes transformación y los animales formas distintas de presencia.",
+    image: "assets/mundos-acuaticos.png",
+    alt: "Humanos primordiales junto a criaturas antiguas bajo el mar.",
+  },
+  {
+    tab: "Herida",
+    kicker: "Movimiento 5",
+    title: "La noche llegó al mundo.",
+    text:
+      "Cuando el cielo se abrió, las estrellas aparecieron como una herida. La oscuridad no era maldad, pero anunciaba separación.",
+    image: "assets/cielo-abierto-estrellas.png",
+    alt: "Primeras estrellas visibles sobre la Tierra primordial.",
+  },
+];
+
+let activeVideoIndex = 0;
+let activeFormat = "youtube";
+let activeStoryIndex = 0;
+
+function isExternalUrl(src) {
+  return /^https?:\/\//i.test(src);
+}
+
+function getYouTubeEmbed(src) {
+  const match = src.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&?/]+)/i);
+  return match ? `https://www.youtube.com/embed/${match[1]}` : src;
+}
+
+function renderVideo() {
+  const episode = VIDEO_LIBRARY[activeVideoIndex];
+  const format = episode[activeFormat];
+  const videoShell = document.querySelector("#videoShell");
+  const videoPlayer = document.querySelector("#videoPlayer");
+  const label = document.querySelector("#episodeLabel");
+  const title = document.querySelector("#episodeTitle");
+  const description = document.querySelector("#episodeDescription");
+
+  if (!videoShell || !videoPlayer) return;
+
+  label.textContent = episode.number;
+  title.textContent = episode.title;
+  description.textContent = episode.description;
+  videoShell.classList.toggle("is-vertical", format.ratio === "vertical");
+
+  if (format.url) {
+    videoPlayer.innerHTML = `
+      <div class="platform-card" style="background-image: linear-gradient(rgba(3, 6, 9, 0.72), rgba(3, 6, 9, 0.88)), url('${episode.poster}')">
+        <div>
+          <p class="episode-label">${format.label}</p>
+          <h3>${episode.title}</h3>
+          <p>Abre el video publicado para apoyar las vistas del proyecto en ${format.label}.</p>
+          <a class="button primary" href="${format.url}" target="_blank" rel="noopener">Ver en ${format.label}</a>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  if (!format.fallbackSrc) {
+    videoPlayer.innerHTML = `
+      <div class="video-placeholder">
+        <div>
+          <strong>Espacio reservado</strong>
+          <p>Cuando este capítulo esté listo, cambia su enlace en VIDEO_LIBRARY y aparecerá aquí.</p>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  videoPlayer.innerHTML = `
+    <div class="video-note">Vista previa local. Cuando agreguemos el enlace publicado, este botón enviará a ${format.label}.</div>
+    <video controls playsinline preload="metadata" poster="${episode.poster}">
+      <source src="${format.fallbackSrc}" type="video/mp4" />
+      Tu navegador no pudo cargar este video.
+    </video>
+  `;
+}
+
+function renderVideoTabs() {
+  const tabs = document.querySelector("#videoTabs");
+  if (!tabs) return;
+
+  tabs.innerHTML = ["youtube", "tiktok"]
+    .map((formatName) => {
+      const episode = VIDEO_LIBRARY[activeVideoIndex];
+      const label = episode[formatName].label;
+      const active = activeFormat === formatName ? " is-active" : "";
+      return `<button class="video-tab${active}" type="button" data-format="${formatName}">${label}</button>`;
+    })
+    .join("");
+
+  tabs.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFormat = button.dataset.format;
+      renderVideoTabs();
+      renderVideo();
+    });
+  });
+}
+
+function renderChapterList() {
+  const list = document.querySelector("#chapterList");
+  if (!list) return;
+
+  list.innerHTML = VIDEO_LIBRARY.map((episode, index) => {
+    const active = index === activeVideoIndex ? " is-active" : "";
+    return `
+      <button class="chapter-button${active}" type="button" data-index="${index}">
+        <strong>${episode.number}: ${episode.title}</strong>
+        <span>${episode.status === "disponible" ? "Publicado" : "En desarrollo"}</span>
+      </button>
+    `;
+  }).join("");
+
+  list.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeVideoIndex = Number(button.dataset.index);
+      activeFormat = "youtube";
+      renderChapterList();
+      renderVideoTabs();
+      renderVideo();
+      renderClipGrid();
+    });
+  });
+}
+
+function renderSeriesGrid() {
+  const grid = document.querySelector("#seriesGrid");
+  if (!grid) return;
+
+  grid.innerHTML = VIDEO_LIBRARY.map((episode) => `
+    <article class="series-card" data-status="${episode.status}">
+      <strong>${episode.number}</strong>
+      <h3>${episode.title}</h3>
+      <p>${episode.description}</p>
+      <p>${episode.status === "disponible" ? "Con salida a plataformas." : "Ya tiene ruta narrativa en TikTok."}</p>
+    </article>
+  `).join("");
+}
+
+function renderClipGrid() {
+  const grid = document.querySelector("#clipGrid");
+  if (!grid) return;
+
+  const episode = VIDEO_LIBRARY[activeVideoIndex];
+  const clips = episode.clips || [];
+
+  if (!clips.length) {
+    grid.innerHTML = `
+      <div class="clip-empty">
+        Cuando este capítulo tenga piezas publicadas en TikTok, sus enlaces aparecerán aquí.
+      </div>
+    `;
+    return;
+  }
+
+  grid.innerHTML = clips.map((clip) => `
+    <a class="clip-card" href="${clip.url}" target="_blank" rel="noopener">
+      <span>${clip.label}</span>
+      <strong>Ver en TikTok</strong>
+    </a>
+  `).join("");
+}
+
+function renderExtraClipGrid() {
+  const grid = document.querySelector("#extraClipGrid");
+  if (!grid) return;
+
+  grid.innerHTML = TIKTOK_STORY_ARCS.map((arc) => `
+    <article class="arc-card">
+      <div class="arc-heading">
+        <p class="section-kicker">${arc.title}</p>
+        <p>${arc.description}</p>
+      </div>
+      <div class="clip-grid arc-grid">
+        ${arc.clips.map((clip) => {
+          const content = `
+            <span>${clip.number}</span>
+            <strong>${clip.title}</strong>
+            ${clip.note ? `<small>${clip.note}</small>` : "<small>Ver en TikTok</small>"}
+          `;
+
+          if (!clip.url) {
+            return `<div class="clip-card is-pending">${content}</div>`;
+          }
+
+          return `<a class="clip-card" href="${clip.url}" target="_blank" rel="noopener">${content}</a>`;
+        }).join("")}
+      </div>
+    </article>
+  `).join("");
+}
+
+function renderStoryButtons() {
+  const holder = document.querySelector("#storyButtons");
+  if (!holder) return;
+
+  holder.innerHTML = STORY_STEPS.map((step, index) => {
+    const active = index === activeStoryIndex ? " is-active" : "";
+    return `<button class="story-button${active}" type="button" data-index="${index}">${step.tab}</button>`;
+  }).join("");
+
+  holder.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      activeStoryIndex = Number(button.dataset.index);
+      renderStoryButtons();
+      renderStoryStep();
+    });
+  });
+}
+
+function renderStoryStep() {
+  const step = STORY_STEPS[activeStoryIndex];
+  const image = document.querySelector("#storyImage");
+  const kicker = document.querySelector("#storyKicker");
+  const title = document.querySelector("#storyTitle");
+  const text = document.querySelector("#storyText");
+
+  if (!image || !kicker || !title || !text) return;
+
+  image.src = step.image;
+  image.alt = step.alt;
+  kicker.textContent = step.kicker;
+  title.textContent = step.title;
+  text.textContent = step.text;
+}
+
+function setupResonanceCanvas() {
+  const canvas = document.querySelector("#resonanceCanvas");
+  const range = document.querySelector("#resonanceRange");
+  const output = document.querySelector("#resonanceValue");
+
+  if (!canvas || !range || !output) return;
+
+  const ctx = canvas.getContext("2d");
+  const particles = Array.from({ length: 92 }, (_, index) => {
+    const angle = (index / 92) * Math.PI * 2;
+    const radius = 76 + (index % 10) * 23;
+    return {
+      angle,
+      radius,
+      seed: Math.random() * Math.PI * 2,
+      drift: 0.003 + Math.random() * 0.006,
+      x: 0,
+      y: 0,
+    };
+  });
+
+  let resonance = Number(range.value) / 100;
+  let frame = 0;
+
+  function resizeCanvas() {
+    const rect = canvas.getBoundingClientRect();
+    const scale = window.devicePixelRatio || 1;
+    canvas.width = Math.max(1, Math.floor(rect.width * scale));
+    canvas.height = Math.max(1, Math.floor(rect.height * scale));
+    ctx.setTransform(scale, 0, 0, scale, 0, 0);
+  }
+
+  function draw() {
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
+    const cx = width / 2;
+    const cy = height / 2;
+    frame += 1;
+
+    ctx.clearRect(0, 0, width, height);
+
+    const bg = ctx.createRadialGradient(cx, cy, 20, cx, cy, Math.max(width, height) * 0.72);
+    bg.addColorStop(0, "rgba(31, 119, 114, 0.26)");
+    bg.addColorStop(0.46, "rgba(16, 36, 31, 0.66)");
+    bg.addColorStop(1, "rgba(5, 8, 10, 1)");
+    ctx.fillStyle = bg;
+    ctx.fillRect(0, 0, width, height);
+
+    const spread = 1.58 - resonance * 0.94;
+    const pulse = 1 + Math.sin(frame * 0.02) * 0.04 * resonance;
+
+    for (const particle of particles) {
+      particle.angle += particle.drift * (0.4 + resonance);
+      const wave = Math.sin(frame * 0.018 + particle.seed) * 24 * (1 - resonance);
+      const r = (particle.radius * spread + wave) * pulse;
+      particle.x = cx + Math.cos(particle.angle) * r;
+      particle.y = cy + Math.sin(particle.angle) * r * 0.72;
+    }
+
+    ctx.lineWidth = 1;
+    for (let i = 0; i < particles.length; i += 1) {
+      for (let j = i + 1; j < particles.length; j += 1) {
+        const a = particles[i];
+        const b = particles[j];
+        const distance = Math.hypot(a.x - b.x, a.y - b.y);
+        const limit = 52 + resonance * 134;
+        if (distance < limit) {
+          const alpha = (1 - distance / limit) * (0.13 + resonance * 0.36);
+          ctx.strokeStyle = `rgba(242, 224, 175, ${alpha})`;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    for (const particle of particles) {
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(213, 168, 79, ${0.43 + resonance * 0.42})`;
+      ctx.shadowColor = "rgba(31, 119, 114, 0.95)";
+      ctx.shadowBlur = 2.4 + resonance * 5.2;
+      ctx.arc(particle.x, particle.y, 2.1 + resonance * 1.8, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = "rgba(255, 247, 232, 0.84)";
+    ctx.font = "700 13px system-ui, sans-serif";
+    ctx.fillText(
+      resonance > 0.72 ? "Unidad flexible" : resonance > 0.36 ? "Resonancia parcial" : "Fragmentación rígida",
+      22,
+      height - 24,
+    );
+
+    requestAnimationFrame(draw);
+  }
+
+  range.addEventListener("input", () => {
+    resonance = Number(range.value) / 100;
+    output.textContent = `${range.value}%`;
+  });
+
+  window.addEventListener("resize", resizeCanvas);
+  resizeCanvas();
+  draw();
+}
+
+renderVideoTabs();
+renderChapterList();
+renderSeriesGrid();
+renderClipGrid();
+renderExtraClipGrid();
+renderStoryButtons();
+renderStoryStep();
+renderVideo();
+setupResonanceCanvas();

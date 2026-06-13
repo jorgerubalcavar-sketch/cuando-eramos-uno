@@ -1,686 +1,269 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cuando éramos uno | Jorge Rubalcava Ríos</title>
     <meta
       name="description"
-      content="Cuando éramos uno, universo narrativo espiritual y cinematográfico de Jorge Rubalcava Ríos."
+      content="Universo narrativo de Cuando éramos uno: videos, texto interactivo y canon de una mitología filosófica sobre la Tierra viva, la Resonancia y la Fragmentación."
     />
-    <title>Cuando Éramos Uno</title>
-    <style>
-      :root {
-        --black: #050505;
-        --night: #0d1218;
-        --deep: #11100c;
-        --gold: #f5d38b;
-        --gold-soft: rgba(245, 211, 139, 0.18);
-        --cream: #fff7e3;
-        --muted: rgba(255, 247, 227, 0.72);
-        --line: rgba(255, 255, 255, 0.12);
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        margin: 0;
-        background: var(--black);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        overflow-x: hidden;
-      }
-
-      a {
-        color: inherit;
-      }
-
-      .gold-rain {
-        position: fixed;
-        inset: 0;
-        z-index: 5;
-        pointer-events: none;
-        opacity: 0.14;
-        background-image: linear-gradient(transparent, rgba(255, 215, 100, 0.16));
-        animation: rain 0.38s linear infinite;
-      }
-
-      @keyframes rain {
-        from {
-          transform: translateY(-100%);
-        }
-        to {
-          transform: translateY(100%);
-        }
-      }
-
-      .site-header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 20;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 24px;
-        padding: 18px clamp(18px, 5vw, 70px);
-        color: var(--cream);
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.76), transparent);
-      }
-
-      .brand {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 20px;
-        text-decoration: none;
-      }
-
-      nav {
-        display: flex;
-        gap: clamp(12px, 2vw, 28px);
-        font-size: 14px;
-      }
-
-      nav a,
-      footer a {
-        color: rgba(255, 247, 227, 0.78);
-        text-decoration: none;
-      }
-
-      nav a:hover,
-      footer a:hover {
-        color: var(--gold);
-      }
-
-      .hero,
-      .chapter {
-        position: relative;
-        overflow: hidden;
-        border-top: 1px solid var(--line);
-      }
-
-      .hero {
-        min-height: 100vh;
-        display: grid;
-        align-items: center;
-        padding: 120px clamp(22px, 8vw, 118px) 86px;
-        background:
-          radial-gradient(circle at 44% 44%, rgba(245, 211, 139, 0.28), rgba(0, 0, 0, 0.54) 34%, rgba(0, 0, 0, 0.98) 100%),
-          url("./E2376039-39AA-4D79-A01C-FEB0012707C6.png");
-        background-size: cover;
-        background-position: center;
-      }
-
-      .hero::after,
-.chapter::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.45)),
-    radial-gradient(circle at 70% 30%, rgba(245, 211, 139, 0.04), transparent 42%);
-}
-
-      .thread-field {
-        position: absolute;
-        inset: 0;
-        z-index: 1;
-        pointer-events: none;
-        opacity: 0.82;
-      }
-
-      .thread-field span {
-        position: absolute;
-        height: 2px;
-        width: 44vw;
-        min-width: 260px;
-        border-radius: 999px;
-        background: linear-gradient(90deg, transparent, rgba(245, 211, 139, 0.9), transparent);
-        box-shadow: 0 0 18px rgba(245, 211, 139, 0.5), 0 0 44px rgba(245, 211, 139, 0.16);
-        transform-origin: center;
-        animation: pulse 5.6s ease-in-out infinite;
-      }
-
-      .thread-field span:nth-child(1) {
-        top: 24%;
-        left: 45%;
-        transform: rotate(20deg);
-      }
-
-      .thread-field span:nth-child(2) {
-        top: 45%;
-        left: 52%;
-        transform: rotate(-18deg);
-        animation-delay: -1.4s;
-      }
-
-      .thread-field span:nth-child(3) {
-        top: 68%;
-        left: 37%;
-        transform: rotate(9deg);
-        animation-delay: -2.8s;
-      }
-
-      @keyframes pulse {
-        0%,
-        100% {
-          opacity: 0.36;
-          filter: blur(0);
-        }
-        50% {
-          opacity: 1;
-          filter: blur(0.6px);
-        }
-      }
-
-      .hero-content,
-      .chapter-inner {
-        position: relative;
-        z-index: 2;
-        max-width: 1060px;
-      }
-
-      .eyebrow,
-      .section-label {
-        margin: 0 0 14px;
-        color: var(--gold);
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-      }
-
-      h1,
-      h2,
-      h3,
-      p {
-        margin-top: 0;
-      }
-
-      h1 {
-        max-width: 1000px;
-        margin-bottom: 28px;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(56px, 10vw, 128px);
-        font-weight: 500;
-        line-height: 0.92;
-        text-shadow:
-          0 0 12px rgba(255, 215, 100, 0.28),
-          0 0 56px rgba(255, 215, 100, 0.18);
-      }
-
-      h2 {
-        max-width: 920px;
-        margin-bottom: 22px;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(36px, 5.4vw, 72px);
-        font-weight: 500;
-        line-height: 1.02;
-      }
-
-      h3 {
-        margin-bottom: 10px;
-        color: var(--gold);
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 27px;
-        font-weight: 500;
-      }
-
-      .hero p,
-      .chapter p,
-      .section p {
-        max-width: 850px;
-        color: var(--muted);
-        font-size: clamp(18px, 2vw, 23px);
-        line-height: 1.75;
-      }
-
-      .hero-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 34px;
-      }
-
-      .button {
-        display: inline-flex;
-        min-height: 48px;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 20px;
-        border: 1px solid rgba(255, 247, 227, 0.24);
-        border-radius: 999px;
-        color: var(--cream);
-        text-decoration: none;
-        font-weight: 800;
-      }
-
-      .button.primary {
-        color: #111;
-        background: var(--gold);
-        border-color: transparent;
-      }
-
-      .button.secondary {
-        background: rgba(255, 255, 255, 0.08);
-      }
-
-      .chapter {
-        min-height: 92vh;
-        display: grid;
-        align-items: center;
-        padding: 110px clamp(22px, 10vw, 150px);
-        background-size: cover;
-        background-position: center;
-      }
-
-      .chapter.universe {
-        background-image:
-          radial-gradient(circle at 65% 42%, var(--gold-soft), rgba(0, 0, 0, 0.8) 42%),
-          url("https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter.earth {
-        background-image:
-          radial-gradient(circle at 64% 38%, rgba(245, 211, 139, 0.2), rgba(0, 0, 0, 0.78) 44%),
-          url("https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter.humanity {
-        background-image:
-          radial-gradient(circle at 70% 38%, rgba(245, 211, 139, 0.26), rgba(0, 0, 0, 0.76) 45%),
-          url("https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter.lie {
-        background-image:
-          radial-gradient(circle at 70% 38%, rgba(183, 72, 54, 0.22), rgba(0, 0, 0, 0.82) 43%),
-          url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter.babel {
-        background-image:
-          radial-gradient(circle at 72% 40%, rgba(245, 211, 139, 0.15), rgba(0, 0, 0, 0.86) 43%),
-          url("https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter.fragmentation {
-        background-image:
-          radial-gradient(circle at 70% 40%, rgba(245, 211, 139, 0.1), rgba(0, 0, 0, 0.9) 45%),
-          url("https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1800&auto=format&fit=crop");
-      }
-
-      .chapter-note {
-        display: inline-flex;
-        margin-top: 20px;
-        padding: 10px 14px;
-        border: 1px solid rgba(245, 211, 139, 0.28);
-        border-radius: 999px;
-        color: rgba(255, 247, 227, 0.78);
-        background: rgba(0, 0, 0, 0.28);
-        font-size: 14px;
-      }
-
-      .section {
-        padding: clamp(76px, 10vw, 130px) clamp(22px, 10vw, 150px);
-        border-top: 1px solid var(--line);
-      }
-
-      .book-section {
-        background:
-          radial-gradient(circle at 16% 8%, rgba(245, 211, 139, 0.12), transparent 34%),
-          linear-gradient(180deg, #090909, #12100c);
-      }
-
-      .concept-grid,
-      .episode-grid,
-      .story-grid {
-        display: grid;
-        gap: 18px;
-        margin-top: 42px;
-      }
-
-      .concept-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-
-      .episode-grid,
-      .story-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-
-      .card {
-        min-height: 270px;
-        padding: 28px;
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.055);
-        transition: transform 0.28s ease, background 0.28s ease, border-color 0.28s ease;
-      }
-
-      .card:hover {
-        transform: translateY(-6px);
-        background: rgba(255, 255, 255, 0.09);
-        border-color: rgba(245, 211, 139, 0.38);
-      }
-
-      .card span {
-        display: inline-flex;
-        margin-bottom: 38px;
-        color: rgba(245, 211, 139, 0.72);
-        font-weight: 800;
-      }
-
-      .card p {
-        color: rgba(255, 247, 227, 0.74);
-        font-size: 16px;
-        line-height: 1.65;
-      }
-
-      .shorts {
-        background: radial-gradient(circle at 84% 12%, rgba(245, 211, 139, 0.12), transparent 36%), #070707;
-      }
-
-      .story-card a {
-        display: inline-flex;
-        margin-top: 8px;
-        color: var(--gold);
-        font-weight: 800;
-        text-decoration: none;
-      }
-
-      .story-card a:hover {
-        color: var(--cream);
-      }
-
-      footer {
-        display: flex;
-        justify-content: space-between;
-        gap: 18px;
-        padding: 42px clamp(22px, 8vw, 118px);
-        border-top: 1px solid var(--line);
-        color: #888;
-        background: #050505;
-        font-size: 16px;
-      }
-
-      footer p {
-        margin: 0;
-      }
-
-      @media (max-width: 980px) {
-        nav {
-          display: none;
-        }
-
-        .concept-grid,
-        .episode-grid,
-        .story-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .card {
-          min-height: auto;
-        }
-      }
-
-      @media (max-width: 640px) {
-        .site-header {
-          padding: 16px 18px;
-        }
-
-        .hero,
-        .chapter {
-          min-height: 86vh;
-          padding: 98px 20px 72px;
-        }
-
-        .section {
-          padding: 70px 20px;
-        }
-
-        .hero p,
-        .chapter p,
-        .section p {
-          font-size: 18px;
-        }
-
-        footer {
-          flex-direction: column;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div class="gold-rain" aria-hidden="true"></div>
-
-    <header class="site-header">
-      <a href="#inicio" class="brand">Cuando éramos uno</a>
-      <nav aria-label="Navegación principal">
-        <a href="#video-1">Video 1</a>
-        <a href="#video-2">Video 2</a>
-        <a href="#video-3">Video 3</a>
-        <a href="#tratado">Tratado</a>
+    <header class="site-header" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">Cuando éramos uno</a>
+      <nav>
+        <a href="#video">Video</a>
+        <a href="#texto">Texto vivo</a>
+        <a href="#lectura">Lectura</a>
+        <a href="#resonancia">Resonancia</a>
+        <a href="#participa">Participa</a>
       </nav>
     </header>
 
     <main id="inicio">
-      <section class="hero">
-        <div class="thread-field" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/universo-dormido.png"
+          alt="Materia luminosa en un universo antiguo que comienza a despertar."
+        />
+        <div class="hero-scrim"></div>
         <div class="hero-content">
-          <p class="eyebrow">Universo narrativo de Jorge Rubalcava Ríos</p>
-            <h1>Antes de la vida…<br>el universo dormía.</h1>
-<p>
-  Las partes del universo estaban demasiado separadas para sentirse.
-</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#video-1">Entrar al origen</a>
-            <a class="button secondary" href="#tratado">Ver el tratado</a>
+          <p class="eyebrow">Universo original de Jorge Rubalcava Ríos</p>
+          <h1 id="hero-title">Cuando éramos uno</h1>
+          <p class="hero-lede">
+            La vida fue el modo en que el universo aprendió a sentirse.
+            La Tierra fue madre. La materia confiaba. Y el humano recibió una
+            responsabilidad: hacer resonar la creación con amor.
+          </p>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button primary" href="#video">Ver el primer video</a>
+            <a class="button secondary" href="#lectura">Leer versión 4</a>
+            <a class="button secondary" href="#participa">Apoyar</a>
           </div>
         </div>
       </section>
 
-      <section class="chapter universe" id="video-1">
-        <div class="thread-field" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
+      <section class="video-section" id="video" aria-labelledby="video-title">
+        <div class="section-intro">
+          <p class="section-kicker">Video largo 1</p>
+          <h2 id="video-title">Antes de las estrellas</h2>
+          <p>
+            El primer capítulo audiovisual del universo. Aquí comienza el mito:
+            materia, vida, Tierra madre, primera humanidad y la llegada de la
+            noche como anuncio de la Fragmentación.
+          </p>
         </div>
-        <div class="chapter-inner">
-          <p class="section-label">Video 1 · Las partes separadas</p>
-          <h2>Al principio, las partes estaban demasiado separadas para sentirse.</h2>
-          <p>
-            Se movían. Chocaban. Cambiaban. Pero todavía no podían mirarse.
-            Entonces comenzaron a unirse, y al unirse aparecieron posibilidades nuevas.
-          </p>
-          <p>
-            La consciencia no nació como dominio. Nació como relación: una partícula
-            no podía sentir sola lo que muchas juntas empezaron a descubrir.
-          </p>
-          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKWbh6/" target="_blank" rel="noopener">Ver video 1 en TikTok</a>
+
+        <div class="video-layout">
+          <div class="video-copy">
+            <p class="episode-label" id="episodeLabel">Capítulo activo</p>
+            <h3 id="episodeTitle">Antes de las estrellas</h3>
+            <p id="episodeDescription">
+              Entra al video publicado para apoyar el proyecto desde YouTube o TikTok.
+            </p>
+            <div class="video-tabs" id="videoTabs" aria-label="Versiones del video"></div>
+            <div class="chapter-list" id="chapterList" aria-label="Lista de videos largos"></div>
+          </div>
+
+          <div class="video-player-shell" id="videoShell">
+            <div class="video-player" id="videoPlayer" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <div class="clip-section">
+          <div>
+            <p class="section-kicker">TikTok</p>
+            <h3>Piezas publicadas del capítulo</h3>
+          </div>
+          <div class="clip-grid" id="clipGrid" aria-label="Piezas publicadas en TikTok"></div>
+        </div>
+
+        <div class="clip-section archive-clips">
+          <div>
+            <p class="section-kicker">Ruta TikTok</p>
+            <h3>La historia ordenada para seguir el mundo.</h3>
+            <p>
+              Después del primer video largo, estos TikToks funcionan como
+              puertas cortas hacia los siguientes arcos: materia, visitantes,
+              símbolos, antiguos, mundo moderno y regreso.
+            </p>
+          </div>
+          <div class="arc-list" id="extraClipGrid" aria-label="Ruta narrativa de TikToks"></div>
         </div>
       </section>
 
-      <section class="chapter universe" id="video-2">
-        <div class="thread-field" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
+      <section class="interactive-text" id="texto" aria-labelledby="text-title">
+        <div class="text-panel">
+          <p class="section-kicker">Texto interactivo</p>
+          <h2 id="text-title">Lee el origen como si el mundo recordara contigo.</h2>
+          <p>
+            Cada movimiento abre una imagen, una idea y una frase de canon.
+            No es una enciclopedia: es una puerta de entrada viva para que el
+            visitante sienta la continuidad del universo.
+          </p>
+          <div class="story-buttons" id="storyButtons" aria-label="Movimientos del texto"></div>
         </div>
-        <div class="chapter-inner">
-          <p class="section-label">Video 2 · El nacimiento de la diversidad</p>
-          <h2>La vida siempre quiso más: más movimiento, más memoria, más experiencia.</h2>
+
+        <article class="story-stage" aria-live="polite">
+          <img id="storyImage" src="assets/tierra-vientre-nubes.png" alt="" />
+          <div class="story-gradient"></div>
+          <div class="story-copy">
+            <p id="storyKicker">Movimiento 1</p>
+            <h3 id="storyTitle">La Tierra dosificó la luz.</h3>
+            <p id="storyText">
+              Antes de la noche visible, la Tierra cubrió el cielo con nubes
+              luminosas. No ocultaba el mundo: lo cuidaba.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="continuity" aria-labelledby="continuity-title">
+        <div class="section-intro">
+          <p class="section-kicker">Continuidad</p>
+          <h2 id="continuity-title">La historia crecerá por capítulos.</h2>
           <p>
-            Mientras más se unían las partes, más profundamente podía sentirse el
-            universo a sí mismo. La diversidad verdadera no nació de la separación
-            absoluta: nació de una unión capaz de respetar diferencia.
+            Cada capítulo tendrá su salida hacia YouTube y TikTok para que la
+            página ayude a llevar lectores y vistas a las plataformas.
           </p>
+        </div>
+        <div class="series-grid" id="seriesGrid" aria-label="Próximos videos largos"></div>
+      </section>
+
+      <section class="resonance-lab" id="resonancia" aria-labelledby="lab-title">
+        <div class="lab-copy">
+          <p class="section-kicker">Experiencia</p>
+          <h2 id="lab-title">La materia no era esclava. Era confianza.</h2>
           <p>
-            Estrellas, galaxias, océanos y mundos vivos siguieron el mismo impulso:
-            experimentar más vida sin dejar de ser distintos.
+            Mueve el control y observa cómo cambia el campo. Todo vibra, pero
+            no todo elige. La consciencia sintoniza, la materia participa y la
+            Resonancia vuelve flexible lo que parecía rígido.
           </p>
-          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKGErv/" target="_blank" rel="noopener">Ver video 2 en TikTok</a>
+          <label for="resonanceRange">Nivel de Resonancia</label>
+          <input id="resonanceRange" type="range" min="0" max="100" value="58" />
+          <output id="resonanceValue" for="resonanceRange">58%</output>
+        </div>
+        <canvas
+          id="resonanceCanvas"
+          width="720"
+          height="520"
+          aria-label="Visualización interactiva de partículas en resonancia"
+        ></canvas>
+      </section>
+
+      <section class="gallery" aria-labelledby="gallery-title">
+        <div class="section-intro">
+          <p class="section-kicker">Fondos del universo</p>
+          <h2 id="gallery-title">La Tierra, la piedra, el mar y el cielo roto.</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure>
+            <img src="assets/mundos-acuaticos.png" alt="Primordiales conviviendo con criaturas marinas antiguas." />
+            <figcaption>Mundos acuáticos</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/piedra-recibe-primordial.png" alt="La piedra viva suaviza su forma para recibir a un primordial." />
+            <figcaption>La materia confiaba</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/volcan-pulso-tierra.png" alt="Primordiales cerca de un volcán sintiendo el pulso de la Tierra." />
+            <figcaption>El pulso de la Tierra</figcaption>
+          </figure>
         </div>
       </section>
 
-      <section class="chapter earth" id="video-3">
-        <div class="thread-field" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
+      <section class="archive" id="lectura" aria-labelledby="archive-title">
+        <div>
+          <p class="section-kicker">Lectura abierta</p>
+          <h2 id="archive-title">Libro, canon y leyes del universo.</h2>
+          <p>
+            La página también debe dejar leyendo a quien llegue por los videos.
+            Aquí están la versión 4 del libro, la biblia del universo y las
+            leyes que explican la Resonancia, la materia y la responsabilidad
+            frecuencial.
+          </p>
         </div>
-        <div class="chapter-inner">
-          <p class="section-label">Video 3 · La Tierra como madre amorosa</p>
-          <h2>La Tierra no era una roca vacía viajando por el espacio.</h2>
-          <p>
-            Era una consciencia aprendiendo a cuidar. Cubrió el cielo con nubes
-            eternas para suavizar la luz. No conocíamos noche. No conocíamos oscuridad.
-          </p>
-          <p>
-            La lluvia caía tibia sobre océanos y selvas gigantes. No era castigo.
-            Era conversación entre cielo y suelo.
-          </p>
-          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMKnHpf/" target="_blank" rel="noopener">Ver video 3 en TikTok</a>
+        <div class="archive-links reading-grid" aria-label="Lecturas del universo">
+          <a href="docs/cuando_eramos_uno_v4.md">
+            <span>Manuscrito</span>
+            <strong>Libro base v4</strong>
+            <small>Origen, caída y posibilidad de regreso.</small>
+          </a>
+          <a href="docs/biblia_del_universo.md">
+            <span>Canon maestro</span>
+            <strong>Biblia del universo</strong>
+            <small>Ontología, metafísica, teología y narrativa.</small>
+          </a>
+          <a href="docs/ley_de_resonancia_material.md">
+            <span>Reglas</span>
+            <strong>Ley de Resonancia Material</strong>
+            <small>Materia, amplitud, transformación y límites.</small>
+          </a>
+          <a href="docs/ley_de_responsabilidad_frecuencial.md">
+            <span>Reglas</span>
+            <strong>Responsabilidad Frecuencial</strong>
+            <small>Humano, Reinos, elección y mundo vivo.</small>
+          </a>
+          <a href="docs/recopilacion_universo.md">
+            <span>Archivo</span>
+            <strong>Recopilación del universo</strong>
+            <small>Resumen vivo para futuros libros y videos.</small>
+          </a>
+          <a href="docs/enlaces_publicados_video_largo_1.md">
+            <span>Producción</span>
+            <strong>Videos publicados</strong>
+            <small>Registro de YouTube, TikTok y ruta narrativa.</small>
+          </a>
         </div>
       </section>
 
-      <section class="chapter humanity" id="video-4">
-        <div class="thread-field" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="chapter-inner">
-          <p class="section-label">Video 4 · La primera humanidad como hijo amado</p>
-          <h2>Entonces llegaron los primeros humanos.</h2>
+      <section class="participation" id="participa" aria-labelledby="participation-title">
+        <div class="section-intro">
+          <p class="section-kicker">Comunidad</p>
+          <h2 id="participation-title">Ayuda a decidir hacia dónde crece este mundo.</h2>
           <p>
-            La Tierra los amó de una forma especial porque podían explorar, jugar
-            y amar junto con toda la creación. Los animales no eran inferiores.
-            Eran otras formas de consciencia.
+            La historia ya tiene libro, videos y leyes. Ahora puede crecer con
+            lectores activos: preguntas, ideas, teorías, apoyo directo y votos
+            sobre qué experiencia debería venir después.
           </p>
-          <p>
-            Todo estaba conectado por una Resonancia viva: humanos, árboles, ríos,
-            piedras, animales, lluvia y fuego terrestre. La Unidad todavía respiraba.
-          </p>
-          <a class="chapter-note" href="https://vt.tiktok.com/ZSQMENJSk/" target="_blank" rel="noopener">Ver video 4 en TikTok</a>
         </div>
-      </section>
-
-      <section class="section shorts" id="siguientes">
-        <p class="section-label">Próximos videos</p>
-        <h2>La narración seguirá creciendo en secuencia.</h2>
-        <p>
-          Después de la humanidad primordial vendrán la primera mentira, Babel, la
-          Fragmentación, los visitantes, la piedra que recuerda, los templos, el
-          sacrificio, la falsa apoteosis y el regreso. La página está preparada para
-          agregar cada video como una nueva parte del relato.
-        </p>
-
-        <div class="episode-grid">
-          <article class="card">
-            <span>05</span>
-            <h3>La primera mentira</h3>
-            <p>Cuando sentir, pensar, decir y actuar dejaron de ser un solo movimiento.</p>
+        <div class="participation-grid">
+          <article class="question-card">
+            <strong>Pregunta 1</strong>
+            <h3>¿Qué quieres primero?</h3>
+            <p>Más videos largos, más libro, un juego, un mapa del universo o historias de personajes.</p>
+            <a class="button primary" href="mailto:jorgerubalcavarios@icloud.com?subject=Cuando%20%C3%A9ramos%20uno%20-%20Quiero%20ver%20primero">Responder</a>
           </article>
-          <article class="card">
-            <span>06</span>
-            <h3>Babel</h3>
-            <p>La palabra salvó memoria, pero también reemplazó la experiencia viva.</p>
+          <article class="question-card">
+            <strong>Pregunta 2</strong>
+            <h3>¿Qué parte te llamó?</h3>
+            <p>La Tierra viva, los visitantes, los antiguos, las religiones, las frecuencias o el regreso.</p>
+            <a class="button secondary dark" href="mailto:jorgerubalcavarios@icloud.com?subject=Cuando%20%C3%A9ramos%20uno%20-%20La%20parte%20que%20m%C3%A1s%20me%20llam%C3%B3">Contar mi idea</a>
           </article>
-          <article class="card">
-            <span>07</span>
-            <h3>La Fragmentación</h3>
-            <p>La diferencia dejó de sentirse vinculada al origen común.</p>
-          </article>
-          <article class="card">
-            <span>08</span>
-            <h3>La piedra recuerda</h3>
-            <p>La materia no está muerta: está estabilizada, esperando relación.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section book-section" id="tratado">
-        <p class="section-label">Tratado filosófico</p>
-        <h2>La filosofía que rige este universo.</h2>
-        <p>
-          El tratado ordena lo que la historia muestra como mito: la realidad es el
-          Todo organizándose en formas cada vez más capaces de sentirse a sí mismas
-          sin destruir su diferencia. La tragedia es la Fragmentación: una parte del
-          Todo se experimenta como separada y convierte la relación en dominio.
-        </p>
-
-        <div class="concept-grid">
-          <article class="card">
-            <span>01</span>
-            <h3>Unidad</h3>
+          <article class="support-card">
+            <strong>Apoyo directo</strong>
+            <h3>Apoya la creación del universo.</h3>
             <p>
-              La Unidad no es uniformidad. Es diversidad en Resonancia: muchas
-              formas distintas participando de una realidad mayor.
+              Tu apoyo ayuda a producir más videos, mejorar animaciones,
+              preparar el libro y sostener el desarrollo de la página.
             </p>
-          </article>
-
-          <article class="card">
-            <span>02</span>
-            <h3>Fragmentación</h3>
-            <p>
-              Aparece cuando la diferencia deja de sentirse vinculada al origen
-              común. El otro se vuelve recurso, amenaza o ruido.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>03</span>
-            <h3>Resonancia</h3>
-            <p>
-              Es la relación viva mediante la cual una parte del Todo reconoce a
-              otra como distinta y propia a la vez.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>04</span>
-            <h3>Materia viva</h3>
-            <p>
-              La materia no está absolutamente fija: está estabilizada. La Resonancia
-              reconoce que toda estabilidad guarda posibilidad.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>05</span>
-            <h3>Ética</h3>
-            <p>
-              El bien aumenta vida, relación, verdad y Resonancia sin destruir
-              diferencia. La mentira reduce mundo, aunque calme.
-            </p>
-          </article>
-
-          <article class="card">
-            <span>06</span>
-            <h3>Segunda Unidad</h3>
-            <p>
-              La meta no es regresar a una inocencia infantil, sino alcanzar una
-              Unidad libre y consciente.
-            </p>
+            <div class="support-actions">
+              <a class="button primary" href="https://paypal.me/jorgerubalcavarios" target="_blank" rel="noopener">Apoyar por PayPal</a>
+              <a class="button secondary dark" href="mailto:jorgerubalcavarios@icloud.com">jorgerubalcavarios@icloud.com</a>
+            </div>
           </article>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>Jorge Rubalcava Ríos © 2026</p>
-      <a href="#inicio">Volver al inicio</a>
+    <footer class="site-footer">
+      <p>Cuando éramos uno · Jorge Rubalcava Ríos</p>
+      <a href="#inicio">Volver arriba</a>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
