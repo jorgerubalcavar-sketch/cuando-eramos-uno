@@ -765,6 +765,17 @@ figcaption {
   background: rgba(20, 18, 15, 0.06);
 }
 
+.button.secondary.light {
+  color: var(--bone);
+  border-color: rgba(255, 247, 232, 0.58);
+  background: rgba(255, 247, 232, 0.14);
+}
+
+.button.secondary.light:hover {
+  border-color: rgba(255, 247, 232, 0.86);
+  background: rgba(255, 247, 232, 0.22);
+}
+
 .support-card {
   color: var(--bone);
   background:
