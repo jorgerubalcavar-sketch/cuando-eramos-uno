@@ -12,12 +12,18 @@ const VIDEO_LIBRARY = [
     youtube: {
       label: "YouTube",
       url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
+      cta: "Abrir lista en YouTube",
+      note:
+        "Se abre la lista de reproducción del universo en YouTube para apoyar todas las vistas del proyecto.",
       fallbackSrc: "",
       ratio: "wide",
     },
     tiktok: {
       label: "TikTok",
       url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      cta: "Ver video largo en TikTok",
+      note:
+        "Se abre la versión publicada en TikTok para apoyar las vistas desde esa plataforma.",
       fallbackSrc: "",
       ratio: "vertical",
     },
@@ -372,8 +378,8 @@ function renderVideo() {
         <div>
           <p class="episode-label">${format.label}</p>
           <h3>${episode.title}</h3>
-          <p>Abre el video publicado para apoyar las vistas del proyecto en ${format.label}.</p>
-          <a class="button primary" href="${format.url}" target="_blank" rel="noopener">Ver en ${format.label}</a>
+          <p>${format.note || `Abre el video publicado para apoyar las vistas del proyecto en ${format.label}.`}</p>
+          <a class="button primary" href="${format.url}" target="_blank" rel="noopener">${format.cta || `Ver en ${format.label}`}</a>
         </div>
       </div>
     `;

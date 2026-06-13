@@ -396,6 +396,7 @@ h3 {
   padding: 14px;
   color: var(--bone);
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .clip-card:hover {

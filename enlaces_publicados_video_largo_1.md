@@ -4,27 +4,27 @@
 
 ### YouTube
 
-- Video largo / playlist: https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B
+- [Abrir lista de reproducción del universo en YouTube](https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B)
 
 ### TikTok
 
 Asumido por ahora:
 
-- Video largo en TikTok: https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
+- [Abrir video largo en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
 
 Piezas del capítulo:
 
-1. https://www.tiktok.com/@jorgerubalcavarios/video/7648397881853873426?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-2. https://www.tiktok.com/@jorgerubalcavarios/video/7648427430801132818?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-3. https://www.tiktok.com/@jorgerubalcavarios/video/7648633777958292754?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-4. https://www.tiktok.com/@jorgerubalcavarios/video/7648726281609022738?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-5. https://www.tiktok.com/@jorgerubalcavarios/video/7649396452048915730?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-6. https://www.tiktok.com/@jorgerubalcavarios/video/7649479944367656199?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-7. https://www.tiktok.com/@jorgerubalcavarios/video/7649861966307118343?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-8. https://www.tiktok.com/@jorgerubalcavarios/video/7650109435020365064?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-9. https://www.tiktok.com/@jorgerubalcavarios/video/7650248702992403719?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-10. https://www.tiktok.com/@jorgerubalcavarios/video/7650276614911069447?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-11. https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
+1. [Pieza 1 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7648397881853873426?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+2. [Pieza 2 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7648427430801132818?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+3. [Pieza 3 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7648633777958292754?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+4. [Pieza 4 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7648726281609022738?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+5. [Pieza 5 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7649396452048915730?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+6. [Pieza 6 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7649479944367656199?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+7. [Pieza 7 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7649861966307118343?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+8. [Pieza 8 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7650109435020365064?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+9. [Pieza 9 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7650248702992403719?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+10. [Pieza 10 en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7650276614911069447?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+11. [Pieza 11 / video largo en TikTok](https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
 
 Nota: el enlace 7649396452048915730 llegó duplicado en el chat y se guardó una sola vez.
 
@@ -32,31 +32,31 @@ Nota: el enlace 7649396452048915730 llegó duplicado en el chat y se guardó una
 
 Estos videos llegaron después. Quedan en orden provisional del más antiguo al más reciente según el identificador del video. Falta revisar contenido para moverlos a capítulos temáticos.
 
-1. https://www.tiktok.com/@jorgerubalcavarios/video/7640012985313873170?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-2. https://www.tiktok.com/@jorgerubalcavarios/video/7640540568195452168?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-3. https://www.tiktok.com/@jorgerubalcavarios/video/7641287687231540487?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-4. https://www.tiktok.com/@jorgerubalcavarios/video/7641761171011439880?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-5. https://www.tiktok.com/@jorgerubalcavarios/video/7642387616129649928?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-6. https://www.tiktok.com/@jorgerubalcavarios/video/7642648879279656210?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-7. https://www.tiktok.com/@jorgerubalcavarios/video/7643151604350291218?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-8. https://www.tiktok.com/@jorgerubalcavarios/video/7643192865195052295?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-9. https://www.tiktok.com/@jorgerubalcavarios/video/7643225597195373842?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-10. https://www.tiktok.com/@jorgerubalcavarios/video/7643321999997095175?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-11. https://www.tiktok.com/@jorgerubalcavarios/video/7644623918971489554?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-12. https://www.tiktok.com/@jorgerubalcavarios/video/7644746155544333576?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-13. https://www.tiktok.com/@jorgerubalcavarios/video/7645119758962035986?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-14. https://www.tiktok.com/@jorgerubalcavarios/video/7645248213032652050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-15. https://www.tiktok.com/@jorgerubalcavarios/video/7645647525067738386?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-16. https://www.tiktok.com/@jorgerubalcavarios/video/7645867952973106439?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-17. https://www.tiktok.com/@jorgerubalcavarios/video/7645898117593812232?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-18. https://www.tiktok.com/@jorgerubalcavarios/video/7645900153303354642?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-19. https://www.tiktok.com/@jorgerubalcavarios/video/7645904323813068050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-20. https://www.tiktok.com/@jorgerubalcavarios/video/7645907179353935111?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-21. https://www.tiktok.com/@jorgerubalcavarios/video/7645910941367897362?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-22. https://www.tiktok.com/@jorgerubalcavarios/video/7646177414892080402?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-23. https://www.tiktok.com/@jorgerubalcavarios/video/7646577798504598791?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-24. https://www.tiktok.com/@jorgerubalcavarios/video/7646607631133478162?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
-25. https://www.tiktok.com/@jorgerubalcavarios/video/7646720918537964808?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329
+1. [Las nubes abrazaban toda la Tierra](https://www.tiktok.com/@jorgerubalcavarios/video/7640012985313873170?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+2. [Experimentábamos las formas con ella](https://www.tiktok.com/@jorgerubalcavarios/video/7640540568195452168?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+3. [Nunca nos sentimos solos](https://www.tiktok.com/@jorgerubalcavarios/video/7641287687231540487?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+4. [El regalo ambiguo de las palabras](https://www.tiktok.com/@jorgerubalcavarios/video/7641761171011439880?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+5. [La humanidad antigua también se dividió](https://www.tiktok.com/@jorgerubalcavarios/video/7642387616129649928?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+6. [Templos y lugares energéticos](https://www.tiktok.com/@jorgerubalcavarios/video/7642648879279656210?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+7. [Los símbolos como recuerdos vivos](https://www.tiktok.com/@jorgerubalcavarios/video/7643151604350291218?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+8. [Profetas, druidas, nahuales, sabios y monjes](https://www.tiktok.com/@jorgerubalcavarios/video/7643192865195052295?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+9. [Todos enseñaban lo mismo](https://www.tiktok.com/@jorgerubalcavarios/video/7643225597195373842?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+10. [Las palabras no contienen la verdad](https://www.tiktok.com/@jorgerubalcavarios/video/7643321999997095175?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+11. [Carencia, miedo, limitación y muerte](https://www.tiktok.com/@jorgerubalcavarios/video/7644623918971489554?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+12. [El humano atrapado dentro de sí](https://www.tiktok.com/@jorgerubalcavarios/video/7644746155544333576?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+13. [El sufrimiento puede quebrar el ego](https://www.tiktok.com/@jorgerubalcavarios/video/7645119758962035986?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+14. [La Tierra seguía hablando](https://www.tiktok.com/@jorgerubalcavarios/video/7645248213032652050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+15. [Ideas nacidas de codicia de poder](https://www.tiktok.com/@jorgerubalcavarios/video/7645647525067738386?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+16. [Nos llama volver](https://www.tiktok.com/@jorgerubalcavarios/video/7645867952973106439?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+17. [Posesiones, riqueza y estatus](https://www.tiktok.com/@jorgerubalcavarios/video/7645898117593812232?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+18. [Llegaron hambre, enfermedad, miedo y muerte](https://www.tiktok.com/@jorgerubalcavarios/video/7645900153303354642?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+19. [El universo chocó de frente con nosotros](https://www.tiktok.com/@jorgerubalcavarios/video/7645904323813068050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+20. [La materia escucha](https://www.tiktok.com/@jorgerubalcavarios/video/7645907179353935111?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+21. [Los genetistas decidieron llevarnos dentro de sí](https://www.tiktok.com/@jorgerubalcavarios/video/7645910941367897362?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+22. [No transmitíamos ideas](https://www.tiktok.com/@jorgerubalcavarios/video/7646177414892080402?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+23. [El guardián de mi hermano](https://www.tiktok.com/@jorgerubalcavarios/video/7646577798504598791?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+24. [No todos se fueron](https://www.tiktok.com/@jorgerubalcavarios/video/7646607631133478162?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
+25. [Sabían que olvidaríamos](https://www.tiktok.com/@jorgerubalcavarios/video/7646720918537964808?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329)
 
 Nota: el enlace 7640540568195452168 llegó una segunda vez mal formado y se guardó una sola vez en su versión correcta.
 

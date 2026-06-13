@@ -228,6 +228,15 @@ a {
 
 .reader-content li {
   margin: 0.35em 0;
+  overflow-wrap: anywhere;
+}
+
+.reader-content a {
+  color: #7a4f13;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+  overflow-wrap: anywhere;
 }
 
 .reader-content hr {
