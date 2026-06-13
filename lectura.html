@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lectura | Cuando éramos uno</title>
+    <meta
+      name="description"
+      content="Lectura cuidada del libro, biblia del universo y leyes de Cuando éramos uno."
+    />
+    <link rel="stylesheet" href="lector.css?v=20260613-1" />
+  </head>
+  <body>
+    <header class="reader-header">
+      <a href="index.html#inicio" class="reader-brand">Cuando éramos uno</a>
+      <nav class="reader-nav" aria-label="Lecturas disponibles">
+        <a href="lectura.html?doc=libro" data-doc-link="libro">Libro v4</a>
+        <a href="lectura.html?doc=biblia" data-doc-link="biblia">Biblia</a>
+        <a href="lectura.html?doc=resonancia" data-doc-link="resonancia">Resonancia</a>
+        <a href="lectura.html?doc=responsabilidad" data-doc-link="responsabilidad">Responsabilidad</a>
+      </nav>
+    </header>
+
+    <main class="reader-shell">
+      <aside class="reader-cover" aria-label="Contexto de lectura">
+        <p class="reader-kicker">Archivo vivo</p>
+        <h1 id="readerTitle">Cargando lectura...</h1>
+        <p id="readerDescription">
+          Preparando el texto con formato de libro.
+        </p>
+        <div class="reader-actions">
+          <a class="reader-button primary" href="index.html#video">Ver videos</a>
+          <a class="reader-button" href="index.html#participa">Participar</a>
+        </div>
+      </aside>
+
+      <article class="reader-page" aria-live="polite">
+        <div class="reader-paper">
+          <div id="readerContent" class="reader-content">
+            <p>Cargando...</p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="reader-footer">
+      <a href="index.html#lectura">Volver a la biblioteca</a>
+      <a href="https://paypal.me/jorgerubalcavarios" target="_blank" rel="noopener">Apoyar el proyecto</a>
+    </footer>
+
+    <script src="lector.js?v=20260613-1"></script>
+  </body>
+</html>
