@@ -73,6 +73,26 @@ Uso para el universo:
 - La lucha por el reconocimiento como raiz de dominacion, olvido y recuperacion del otro.
 - El regreso no como infancia recuperada, sino como madurez espiritual.
 
+### Giovanni Pico della Mirandola
+
+Consulta sugerida:
+
+- Giovanni Pico della Mirandola, **Discurso sobre la dignidad del hombre**.
+- Giovanni Pico della Mirandola, **900 tesis**.
+- [Pico Project: Oratio de hominis dignitate](https://www.brown.edu/Departments/Italian_Studies/pico/oratio.html)
+
+Por que importa:
+
+Pico ayuda a pensar al ser humano como potencia abierta. El humano no esta cerrado en una sola forma fija: puede degradarse hacia lo mas bajo o elevarse hacia lo mas alto segun aquello que cultive, contemple y elija.
+
+Uso para el universo:
+
+- El humano como ser inacabado y libre.
+- La conciencia como posibilidad de ascenso o caida frecuencial.
+- La dignidad humana no como superioridad egoica, sino como responsabilidad de llegar a ser.
+- El puente entre materia, pensamiento, eleccion y retorno al Todo.
+- La idea de que el ser humano puede volverse casi cualquier cosa segun la frecuencia que encarne.
+
 ### Baruch Spinoza
 
 Consulta sugerida:
