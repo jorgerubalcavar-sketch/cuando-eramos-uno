@@ -1,7 +1,7 @@
 const PRIVATE_ANALYTICS = {
   // Paste the Cloudflare Web Analytics token between the quotes.
   // Leave it empty to keep private analytics disabled.
-  cloudflareToken: "",
+  cloudflareToken: "031507c489a2486bbede8a5c3c772606",
 };
 
 if (PRIVATE_ANALYTICS.cloudflareToken) {
