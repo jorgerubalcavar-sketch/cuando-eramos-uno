@@ -35,6 +35,12 @@ const READER_DOCS = {
       "Registro de enlaces de YouTube, TikTok y ruta narrativa del primer bloque audiovisual.",
     file: "enlaces_publicados_video_largo_1.md",
   },
+  bibliografia: {
+    title: "Bibliografía de consulta",
+    description:
+      "Mapa de autores, textos y tradiciones para investigar las raíces filosóficas, espirituales y científicas del universo.",
+    file: "bibliografia_consulta.md",
+  },
 };
 
 const params = new URLSearchParams(window.location.search);
