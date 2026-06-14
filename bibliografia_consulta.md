@@ -475,6 +475,27 @@ Uso para el universo:
 - La palabra como herramienta nacida de la separacion.
 - Cultura como mundo creado por signos.
 
+### Paul Ricoeur
+
+Consulta sugerida:
+
+- Paul Ricoeur, **Finitud y culpabilidad**.
+- Paul Ricoeur, **La simbolica del mal**.
+- Paul Ricoeur, **Teoria de la interpretacion**.
+- Paul Ricoeur, **Freud: una interpretacion de la cultura**.
+
+Por que importa:
+
+Ricoeur es clave para la hermeneutica simbolica. Ayuda a pensar que el simbolo no se agota en una definicion literal: abre capas de sentido, memoria, culpa, esperanza, mito y verdad interior. En este universo, muchos textos sagrados y mitos no deben leerse como datos planos, sino como simbolos que conservan ecos de una realidad profunda.
+
+Uso para el universo:
+
+- El simbolo como puente hacia sentidos que el lenguaje directo no alcanza.
+- Los relatos sagrados como archivos de memoria interpretada.
+- La caida, la culpa y el mal como experiencias simbolicas de Fragmentacion.
+- La interpretacion como acto de escucha, no como posesion de la verdad.
+- La verdad dosificada mediante imagenes, parabolas, mitos y ritos.
+
 ### Antoine de Saint-Exupery
 
 Consulta sugerida:
@@ -653,7 +674,7 @@ Consulta sugerida:
 
 Por que importa:
 
-Saussure es esencial para entender el nacimiento del signo moderno: significante, significado, lengua, habla y arbitrariedad del signo. Para Cuando eramos uno, esto toca directamente la herida del lenguaje: cuando la humanidad deja de sentir directamente, necesita signos; y cuando necesita signos, aparece la posibilidad del malentendido, la mentira y la separacion entre palabra y realidad.
+Saussure es esencial para entender la estructura del signo: significante, significado, lengua, habla y arbitrariedad del signo. No es propiamente el autor central de la hermeneutica simbolica, pero si prepara el terreno: antes de interpretar simbolos, hay que entender que el lenguaje no es la realidad misma, sino un sistema de diferencias que la representa, la ordena y a veces la separa.
 
 Uso para el universo:
 
@@ -662,6 +683,7 @@ Uso para el universo:
 - La distancia entre palabra, cosa y esencia.
 - La posibilidad de adulterar la realidad mediante conceptos pobres o rotos.
 - La cultura como sistema de signos que puede recordar o deformar la Unidad.
+- Base estructural para comprender despues la hermeneutica simbolica de autores como Ricoeur.
 
 ### Jacques Lacan
 
