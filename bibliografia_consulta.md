@@ -110,6 +110,25 @@ Uso para el universo:
 - Dios no es un objeto mas dentro del mundo.
 - La separacion absoluta seria imposible porque todo permanece dentro de la totalidad.
 
+### Emmanuel Levinas
+
+Consulta sugerida:
+
+- Emmanuel Levinas, **Totalidad e infinito**.
+- Emmanuel Levinas, **De otro modo que ser, o mas alla de la esencia**.
+
+Por que importa:
+
+Levinas es una referencia central para pensar la responsabilidad ante el Otro. Su filosofia ayuda a formular algo esencial en Cuando eramos uno: el otro no es recurso, objeto ni obstaculo; el rostro del otro nos llama antes de cualquier teoria. La etica no aparece despues del conocimiento, sino antes: primero esta la responsabilidad.
+
+Uso para el universo:
+
+- Hacerse consciente del otro como raiz de la etica.
+- El rostro del otro como interrupcion del ego encerrado.
+- La Fragmentacion como perdida de responsabilidad ante el hermano vivo.
+- La Resonancia no solo como experiencia cosmica, sino como obligacion de cuidado.
+- La frase "no mataras" como limite sagrado inscrito en la presencia del otro.
+
 ### Alfred North Whitehead
 
 Consulta sugerida:
@@ -165,6 +184,28 @@ Uso para el universo:
 - La Tierra como organismo vivo en sentido mitologico.
 - La vida no como adorno del planeta, sino como fuerza que modifica condiciones planetarias.
 - La responsabilidad humana frente a un sistema que responde.
+
+### Leonardo Boff
+
+Consulta sugerida:
+
+- Leonardo Boff, **Ecologia: grito de la Tierra, grito de los pobres**.
+- Leonardo Boff, **El cuidado esencial**.
+- Leonardo Boff, **La dignidad de la Tierra**.
+- Leonardo Boff, **El Tao de la liberacion**.
+- [Leonardo Boff: sitio oficial](https://leonardoboff.org/)
+
+Por que importa:
+
+Boff une teologia, ecologia, justicia, espiritualidad y cuidado. Para este universo es importante porque permite pensar la Tierra no como objeto de explotacion, sino como realidad viva que exige ternura, responsabilidad y conversion de la mirada.
+
+Uso para el universo:
+
+- Cuidado como ley espiritual y politica.
+- Tierra viva, pobres y criaturas como una misma herida del mundo.
+- Ecologia no solo como tecnica, sino como forma de conciencia.
+- La espiritualidad como responsabilidad concreta ante la vida.
+- America Latina como lugar desde donde la Tierra tambien piensa y habla.
 
 ### Humberto Maturana y Francisco Varela
 
@@ -602,6 +643,45 @@ Uso para el universo:
 ---
 
 ## Ciencia, lenguaje y limites del conocimiento
+
+### Ferdinand de Saussure
+
+Consulta sugerida:
+
+- Ferdinand de Saussure, **Curso de linguistica general**.
+- Ferdinand de Saussure, **Escritos sobre linguistica general**.
+
+Por que importa:
+
+Saussure es esencial para entender el nacimiento del signo moderno: significante, significado, lengua, habla y arbitrariedad del signo. Para Cuando eramos uno, esto toca directamente la herida del lenguaje: cuando la humanidad deja de sentir directamente, necesita signos; y cuando necesita signos, aparece la posibilidad del malentendido, la mentira y la separacion entre palabra y realidad.
+
+Uso para el universo:
+
+- Lenguaje como puente y como ruptura.
+- El signo como sustituto de una experiencia que antes era directa.
+- La distancia entre palabra, cosa y esencia.
+- La posibilidad de adulterar la realidad mediante conceptos pobres o rotos.
+- La cultura como sistema de signos que puede recordar o deformar la Unidad.
+
+### Jacques Lacan
+
+Consulta sugerida:
+
+- Jacques Lacan, **Escritos**.
+- Jacques Lacan, **El seminario, libro XI: Los cuatro conceptos fundamentales del psicoanalisis**.
+- [Lacan.com: bibliografias y seminarios](https://www.lacan.com/lacan1.htm)
+
+Por que importa:
+
+Lacan es una referencia peligrosa si se usa sin cuidado, pero muy fertil para pensar deseo, falta, espejo, Otro, simbolico, imaginario y real. En este universo ayuda a leer el ego fragmentado como una construccion atravesada por lenguaje, deseo y ausencia.
+
+Uso para el universo:
+
+- El yo como imagen incompleta que se cree unidad.
+- El deseo como movimiento nacido de una falta.
+- El Otro como estructura que habla dentro de nosotros sin que siempre lo sepamos.
+- Lo simbolico como red que organiza la experiencia humana despues de la perdida de la Resonancia directa.
+- Lo real como aquello que no cabe del todo en palabras, conceptos ni sistemas.
 
 ### Thomas Kuhn
 
