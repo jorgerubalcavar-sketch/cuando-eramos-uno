@@ -227,7 +227,68 @@ h3 {
   color: var(--bone);
   background:
     linear-gradient(rgba(8, 13, 17, 0.9), rgba(8, 13, 17, 0.94)),
-    url("cielo-abierto-estrellas.png") center / cover fixed;
+    url("assets/cielo-abierto-estrellas.png") center / cover fixed;
+}
+
+.origin-chapters {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.36fr) minmax(320px, 1fr);
+  gap: clamp(22px, 4vw, 42px);
+  align-items: start;
+  margin-top: 34px;
+  padding: 22px;
+  border: 1px solid rgba(255, 247, 232, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 247, 232, 0.07);
+}
+
+.origin-chapters h3 {
+  font-size: clamp(27px, 3.2vw, 42px);
+}
+
+.origin-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.origin-card {
+  display: grid;
+  min-height: 260px;
+  align-content: end;
+  gap: 8px;
+  padding: 17px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 247, 232, 0.16);
+  border-radius: 8px;
+  color: var(--bone);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  box-shadow: 0 18px 52px rgba(3, 6, 9, 0.22);
+}
+
+.origin-card:hover {
+  border-color: rgba(213, 168, 79, 0.66);
+}
+
+.origin-card span {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 820;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.origin-card strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 1.08;
+}
+
+.origin-card small {
+  color: rgba(255, 247, 232, 0.78);
+  font-size: 14px;
 }
 
 .video-layout {
@@ -544,7 +605,7 @@ h3 {
   color: var(--bone);
   background:
     linear-gradient(120deg, rgba(16, 36, 31, 0.95), rgba(14, 28, 43, 0.92)),
-    url("ecosistema-unidad.png") center / cover;
+    url("assets/ecosistema-unidad.png") center / cover;
 }
 
 .series-grid {
@@ -728,7 +789,7 @@ figcaption {
   color: var(--ink);
   background:
     linear-gradient(rgba(242, 234, 219, 0.92), rgba(242, 234, 219, 0.96)),
-    url("tierra-vientre-nubes.png") center / cover;
+    url("assets/tierra-vientre-nubes.png") center / cover;
 }
 
 .participation-grid {
@@ -781,7 +842,7 @@ figcaption {
   color: var(--bone);
   background:
     linear-gradient(rgba(7, 11, 16, 0.72), rgba(7, 11, 16, 0.88)),
-    url("galaxias-red-viva.png") center / cover;
+    url("assets/galaxias-red-viva.png") center / cover;
 }
 
 .support-card p {
@@ -808,6 +869,10 @@ figcaption {
 }
 
 @media (max-width: 1040px) {
+  .origin-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .series-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -832,6 +897,7 @@ figcaption {
   }
 
   .video-layout,
+  .origin-chapters,
   .interactive-text,
   .resonance-lab,
   .archive {
@@ -886,6 +952,10 @@ figcaption {
   }
 
   .clip-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .origin-grid {
     grid-template-columns: 1fr;
   }
 }

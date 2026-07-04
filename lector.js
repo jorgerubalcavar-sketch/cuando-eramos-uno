@@ -1,50 +1,68 @@
 const READER_DOCS = {
-  libro: {
-    title: "Libro base v4",
+  tratado: {
+    title: "Tratado de la Unidad y la Fragmentación",
     description:
-      "El manuscrito narrativo-filosófico del origen, la caída y la posibilidad de regreso.",
-    file: "cuando_eramos_uno_v4.md",
+      "La filosofía del universo: Todo, Unidad, Fragmentación, Resonancia, materia viva y Segunda Unidad.",
+    file: "docs/tratado_unidad_fragmentacion.md",
   },
   biblia: {
     title: "Biblia del universo",
     description:
       "La compilación ontológica y narrativa: Todo, Unidad, Fragmentación, Tierra viva y Reinos.",
-    file: "biblia_del_universo.md",
+    file: "docs/biblia_del_universo.md",
+  },
+  "libro-v5": {
+    title: "Cuando éramos uno - Manuscrito base v5",
+    description:
+      "La versión más reciente del libro fundacional: lienzo vivo, materia que confía, visitantes y Segunda Unidad.",
+    file: "docs/cuando_eramos_uno_v5.md",
+  },
+  "resumen-ia": {
+    title: "Resumen maestro para otra IA",
+    description:
+      "Canon operativo para conservar lo sutil: primordiales, amplitud, frecuencia, Resonancia y palabras correctas.",
+    file: "docs/resumen_maestro_ia.md",
+  },
+  video3: {
+    title: "Video Largo 3 - El cielo infinito y los acorazados",
+    description:
+      "Memoria corregida del tercer video largo: estrellas, noche, lo seco, sol directo y visitantes cerrados.",
+    file: "docs/video_largo_3_trabajo.md",
   },
   resonancia: {
     title: "Ley de Resonancia Material",
     description:
       "Reglas de materia, amplitud, transformación, energía y comunión con lo vivo.",
-    file: "ley_de_resonancia_material.md",
+    file: "docs/ley_de_resonancia_material.md",
   },
   responsabilidad: {
     title: "Responsabilidad Frecuencial",
     description:
       "El humano como nodo de elección: frecuencia, Reinos, mundo vivo y cuidado de la materia.",
-    file: "ley_de_responsabilidad_frecuencial.md",
+    file: "docs/ley_de_responsabilidad_frecuencial.md",
   },
   recopilacion: {
     title: "Recopilación del universo",
     description:
       "Resumen maestro para próximos libros, videos largos, shorts y desarrollo del canon.",
-    file: "recopilacion_universo.md",
+    file: "docs/recopilacion_universo.md",
   },
   videos: {
     title: "Videos publicados",
     description:
       "Registro de enlaces de YouTube, TikTok y ruta narrativa del primer bloque audiovisual.",
-    file: "enlaces_publicados_video_largo_1.md",
+    file: "docs/enlaces_publicados_video_largo_1.md",
   },
   bibliografia: {
     title: "Bibliografía de consulta",
     description:
       "Mapa de autores, textos y tradiciones para investigar las raíces filosóficas, espirituales y científicas del universo.",
-    file: "bibliografia_consulta.md",
+    file: "docs/bibliografia_consulta.md",
   },
 };
 
 const params = new URLSearchParams(window.location.search);
-const selectedDoc = READER_DOCS[params.get("doc")] ? params.get("doc") : "libro";
+const selectedDoc = READER_DOCS[params.get("doc")] ? params.get("doc") : "tratado";
 const doc = READER_DOCS[selectedDoc];
 const titleEl = document.querySelector("#readerTitle");
 const descriptionEl = document.querySelector("#readerDescription");

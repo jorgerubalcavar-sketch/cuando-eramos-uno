@@ -1,4 +1,4 @@
-// Para actualizar un video nuevo, cambia solamente los campos youtube.url y tiktok.url
+// Para publicar un video nuevo, cambia solamente los campos youtube.url y tiktok.url
 // del capítulo correspondiente. La web enviará las vistas a cada plataforma.
 const VIDEO_LIBRARY = [
   {
@@ -7,8 +7,8 @@ const VIDEO_LIBRARY = [
     title: "Antes de las estrellas",
     status: "disponible",
     description:
-      "Cosmología viva, Tierra madre, primera humanidad, materia confiada y llegada de la noche.",
-    poster: "video-largo-1-poster.jpg",
+      "Cosmología viva, Tierra madre, primera humanidad, tríadas, materia confiada y mundo original.",
+    poster: "assets/video/video-largo-1-poster.jpg",
     youtube: {
       label: "YouTube",
       url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
@@ -78,37 +78,183 @@ const VIDEO_LIBRARY = [
     id: "reglas-resonancia",
     number: "Video largo 2",
     title: "La materia confiaba",
-    status: "en desarrollo",
+    status: "YouTube y TikTok publicados",
     description:
-      "Tierra viva, materia joven, animales, conocimiento por unión, símbolos y silencio.",
-    poster: "piedra-recibe-primordial.png",
-    youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
-    tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
-    clips: [],
+      "Amplitud como caudal, frecuencia como cadencia, mente antena, Reinos vivos y Responsabilidad Frecuencial.",
+    poster: "assets/piedra-recibe-primordial.png",
+    youtube: {
+      label: "YouTube",
+      url: "https://youtu.be/s4yxolmFrVU?si=Ner5ryq-udCTnHKH",
+      cta: "Ver video largo en YouTube",
+      note: "Se abre la primera pieza publicada en YouTube. Abajo estan todas las piezas ordenadas del capítulo.",
+      fallbackSrc: "",
+      ratio: "wide",
+    },
+    tiktok: {
+      label: "TikTok",
+      url: "https://www.tiktok.com/@jorgerubalcavarios/video/7652595194466028808?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      cta: "Ver video largo en TikTok",
+      note: "Se abre la versión publicada en TikTok para apoyar las vistas desde esa plataforma.",
+      fallbackSrc: "",
+      ratio: "vertical",
+    },
+    clips: [
+      {
+        label: "Pieza 1",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7653152323606236424?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 2",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7653318910439066898?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 3",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7653698894320225543?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 4",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7653923832830545159?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 5",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7654424157697969415?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 6",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7654583673362107655?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 7",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7654682636740218119?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 8",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7654952931627715847?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 9",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7655199173825924359?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+      {
+        label: "Pieza 10",
+        url: "https://www.tiktok.com/@jorgerubalcavarios/video/7655452140747394312?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+      },
+    ],
+    youtubeClips: [
+      {
+        label: "Pieza 1",
+        url: "https://youtu.be/s4yxolmFrVU?si=Ner5ryq-udCTnHKH",
+      },
+      {
+        label: "Pieza 2",
+        url: "https://youtu.be/f3tqX5cWNms?si=oOFDOglqnRepGeO4",
+      },
+      {
+        label: "Pieza 3",
+        url: "https://youtu.be/NreGDYoWPSs?si=UmN1cjPDuUd-S-hY",
+      },
+      {
+        label: "Pieza 4",
+        url: "https://youtu.be/9LfSOOwjysI?si=PFiNOli4Y-YgasEs",
+      },
+      {
+        label: "Pieza 5",
+        url: "https://youtu.be/4PpCAbAUuf8?si=WsHjrG1xnempnA6K",
+      },
+      {
+        label: "Pieza 6",
+        url: "https://youtu.be/1k3tgve8wpo?si=DVvCTHWAaru_kKWe",
+      },
+      {
+        label: "Pieza 7",
+        url: "https://youtu.be/TXwX4OaWTKI?si=03QpTrUcXOxwAQPa",
+      },
+      {
+        label: "Pieza 8",
+        url: "https://youtu.be/mzuxKkuogEE?si=tSESDm9HxnujszmF",
+      },
+      {
+        label: "Pieza 9",
+        url: "https://youtu.be/jNzkb1MqgfY?si=Z7UPViWFgqObAFMb",
+      },
+      {
+        label: "Pieza 10",
+        url: "https://youtu.be/_zAnnjoVh-A?si=AyW8B0DFPKXX3sSA",
+      },
+      {
+        label: "Pieza 11",
+        url: "https://youtu.be/OTTwc8OQqdA?si=6TXri8uhg_g-i_uH",
+      },
+    ],
   },
   {
-    id: "cielo-roto",
+    id: "cielo-infinito",
     number: "Video largo 3",
-    title: "El cielo roto",
-    status: "reservado",
+    title: "El cielo infinito y los acorazados",
+    status: "en escritura",
     description:
-      "Los visitantes llegan buscando salvar su mundo, pero traen una frecuencia nacida del miedo.",
-    poster: "cielo-abierto-estrellas.png",
+      "Las estrellas que miran, la noche, lo seco, el sol directo y los visitantes acorazados que no podíamos sentir.",
+    poster: "assets/cielo-abierto-estrellas.png",
+    youtube: {
+      label: "YouTube",
+      url: "",
+      cta: "Agregar enlace de YouTube",
+      note: "Este capítulo está en pulido. Falta pegar aquí el vínculo público cuando se publique.",
+      fallbackSrc: "",
+      ratio: "wide",
+    },
+    tiktok: {
+      label: "TikTok",
+      url: "",
+      cta: "Agregar enlace de TikTok",
+      note: "Los primeros cinco shorts ya están reordenados. Falta pegar aquí el vínculo público cuando se publique.",
+      fallbackSrc: "",
+      ratio: "vertical",
+    },
+    clips: [],
+  },
+  {
+    id: "division-palabra",
+    number: "Video largo 4",
+    title: "La división y la palabra rota",
+    status: "en desarrollo",
+    description:
+      "La Fragmentación entra como clasificación, después intervención, lenguaje, mentira, propiedad y Babel.",
+    poster: "assets/ecosistema-unidad.png",
     youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
   },
+];
+
+const ORIGIN_CHAPTERS = [
   {
-    id: "primera-mentira",
-    number: "Video largo 4",
-    title: "El mundo que inventamos",
-    status: "en desarrollo",
-    description:
-      "Ideologías, carencia, ego moderno, dolor, compasión y la nostalgia del regreso.",
-    poster: "ecosistema-unidad.png",
-    youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
-    tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
-    clips: [],
+    number: "Video 1",
+    title: "El universo dormía",
+    line: "Al principio, las partes estaban demasiado separadas para sentirse.",
+    image: "assets/universo-dormido.png",
+    url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648397881853873426?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+  },
+  {
+    number: "Video 2",
+    title: "Nacimiento de la diversidad",
+    line: "La vida quiso más movimiento, más memoria y más experiencia.",
+    image: "assets/ecosistema-unidad.png",
+    url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648427430801132818?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+  },
+  {
+    number: "Video 3",
+    title: "La Tierra como madre amorosa",
+    line: "Nubes luminosas, lluvia cálida y luz suave para abrir los ojos sin romperlos.",
+    image: "assets/tierra-vientre-nubes.png",
+    url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648633777958292754?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
+  },
+  {
+    number: "Video 4",
+    title: "La primera humanidad",
+    line: "Humanos, animales, árboles, ríos y piedras conectados por Resonancia.",
+    image: "assets/triada-primordial-lluvia.png",
+    url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648726281609022738?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
   },
 ];
 
@@ -141,23 +287,23 @@ const TIKTOK_STORY_ARCS = [
     ],
   },
   {
-    title: "El cielo roto",
+    title: "El cielo infinito y los acorazados",
     description:
-      "La llegada de los visitantes, el miedo, la intervención y el comienzo de una humanidad fragmentada.",
+      "Primero la maravilla: estrellas, noche, sequedad y sol directo. Después los visitantes cerrados que no podíamos sentir.",
     clips: [
       {
         number: "Ruta 05",
-        title: "El universo chocó de frente con nosotros",
+        title: "El cielo se abrió hacia una inmensidad",
         url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645904323813068050?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
       },
       {
         number: "Ruta 06",
-        title: "Los genetistas decidieron llevarnos dentro de sí",
+        title: "Los visitantes llegaron cerrados al mundo",
         url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645910941367897362?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
       },
       {
         number: "Ruta 07",
-        title: "Llegaron hambre, enfermedad, miedo y muerte",
+        title: "La materia parecía muda con ellos",
         url: "https://www.tiktok.com/@jorgerubalcavarios/video/7645900153303354642?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
       },
       {
@@ -302,7 +448,7 @@ const STORY_STEPS = [
     title: "La Tierra dosificó la luz.",
     text:
       "Antes de la noche visible, la Tierra cubrió el cielo con nubes luminosas. No ocultaba el mundo: lo cuidaba.",
-    image: "tierra-vientre-nubes.png",
+    image: "assets/tierra-vientre-nubes.png",
     alt: "Tierra primigenia envuelta en nubes luminosas como vientre protector.",
   },
   {
@@ -311,7 +457,7 @@ const STORY_STEPS = [
     title: "Nunca necesitaron multitudes para estar unidos.",
     text:
       "Los primordiales vivían en tríadas: pequeño, joven y adulto. Separados por mares, seguían sintiendo una misma red.",
-    image: "triada-primordial-lluvia.png",
+    image: "assets/triada-primordial-lluvia.png",
     alt: "Tres humanos primordiales bajo lluvia cálida.",
   },
   {
@@ -320,7 +466,7 @@ const STORY_STEPS = [
     title: "La materia confiaba.",
     text:
       "La piedra no era esclava ni objeto muerto. Era joven, inocente, abierta. Se reconocía en el humano y respondía sin esperar traición.",
-    image: "piedra-recibe-primordial.png",
+    image: "assets/piedra-recibe-primordial.png",
     alt: "Piedra viva suavizando su forma para recibir a un primordial.",
   },
   {
@@ -329,16 +475,16 @@ const STORY_STEPS = [
     title: "La Tierra hablaba desde todos sus Reinos.",
     text:
       "Los mares enseñaban memoria, las cavernas duración, los volcanes transformación y los animales formas distintas de presencia.",
-    image: "mundos-acuaticos.png",
+    image: "assets/mundos-acuaticos.png",
     alt: "Humanos primordiales junto a criaturas antiguas bajo el mar.",
   },
   {
-    tab: "Herida",
+    tab: "Cielo infinito",
     kicker: "Movimiento 5",
-    title: "La noche llegó al mundo.",
+    title: "Las estrellas nos llamaron desde lejos.",
     text:
-      "Cuando el cielo se abrió, las estrellas aparecieron como una herida. La oscuridad no era maldad, pero anunciaba separación.",
-    image: "cielo-abierto-estrellas.png",
+      "El cielo abierto no fue herida al principio. Fue exposición anticipada: noche, distancia, sol directo y una curiosidad infinita.",
+    image: "assets/cielo-abierto-estrellas.png",
     alt: "Primeras estrellas visibles sobre la Tierra primordial.",
   },
 ];
@@ -391,7 +537,7 @@ function renderVideo() {
       <div class="video-placeholder">
         <div>
           <strong>Espacio reservado</strong>
-          <p>Cuando este capítulo esté listo, cambia su enlace en VIDEO_LIBRARY y aparecerá aquí.</p>
+          <p>${format.note || "Cuando este capítulo esté listo, cambia su enlace en VIDEO_LIBRARY y aparecerá aquí."}</p>
         </div>
       </div>
     `;
@@ -425,6 +571,7 @@ function renderVideoTabs() {
       activeFormat = button.dataset.format;
       renderVideoTabs();
       renderVideo();
+      renderClipGrid();
     });
   });
 }
@@ -435,10 +582,11 @@ function renderChapterList() {
 
   list.innerHTML = VIDEO_LIBRARY.map((episode, index) => {
     const active = index === activeVideoIndex ? " is-active" : "";
+    const statusLabel = episode.status === "disponible" ? "Publicado" : episode.status;
     return `
       <button class="chapter-button${active}" type="button" data-index="${index}">
         <strong>${episode.number}: ${episode.title}</strong>
-        <span>${episode.status === "disponible" ? "Publicado" : "En desarrollo"}</span>
+        <span>${statusLabel}</span>
       </button>
     `;
   }).join("");
@@ -464,22 +612,42 @@ function renderSeriesGrid() {
       <strong>${episode.number}</strong>
       <h3>${episode.title}</h3>
       <p>${episode.description}</p>
-      <p>${episode.status === "disponible" ? "Con salida a plataformas." : "Ya tiene ruta narrativa en TikTok."}</p>
+      <p>${episode.status === "disponible" ? "Con salida a plataformas." : "Listo para conectar cuando tengamos el enlace público."}</p>
     </article>
+  `).join("");
+}
+
+function renderOriginChapters() {
+  const grid = document.querySelector("#originChapterGrid");
+  if (!grid) return;
+
+  grid.innerHTML = ORIGIN_CHAPTERS.map((chapter) => `
+    <a class="origin-card" href="${chapter.url}" target="_blank" rel="noopener" style="background-image: linear-gradient(rgba(3, 6, 9, 0.3), rgba(3, 6, 9, 0.86)), url('${chapter.image}')">
+      <span>${chapter.number}</span>
+      <strong>${chapter.title}</strong>
+      <small>${chapter.line}</small>
+    </a>
   `).join("");
 }
 
 function renderClipGrid() {
   const grid = document.querySelector("#clipGrid");
+  const kicker = document.querySelector("#clipKicker");
+  const title = document.querySelector("#clipTitle");
   if (!grid) return;
 
   const episode = VIDEO_LIBRARY[activeVideoIndex];
-  const clips = episode.clips || [];
+  const isYouTube = activeFormat === "youtube";
+  const platform = isYouTube ? "YouTube" : "TikTok";
+  const clips = isYouTube ? episode.youtubeClips || [] : episode.clips || [];
+
+  if (kicker) kicker.textContent = platform;
+  if (title) title.textContent = `Piezas publicadas en ${platform}`;
 
   if (!clips.length) {
     grid.innerHTML = `
       <div class="clip-empty">
-        Cuando este capítulo tenga piezas publicadas en TikTok, sus enlaces aparecerán aquí.
+        Cuando este capítulo tenga piezas publicadas en ${platform}, sus enlaces aparecerán aquí.
       </div>
     `;
     return;
@@ -488,7 +656,7 @@ function renderClipGrid() {
   grid.innerHTML = clips.map((clip) => `
     <a class="clip-card" href="${clip.url}" target="_blank" rel="noopener">
       <span>${clip.label}</span>
-      <strong>Ver en TikTok</strong>
+      <strong>Ver en ${platform}</strong>
     </a>
   `).join("");
 }
@@ -774,6 +942,7 @@ function setupResonanceCanvas() {
 renderVideoTabs();
 renderChapterList();
 renderSeriesGrid();
+renderOriginChapters();
 renderClipGrid();
 renderExtraClipGrid();
 renderStoryButtons();

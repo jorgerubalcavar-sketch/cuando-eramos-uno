@@ -23,7 +23,7 @@ body {
   color: var(--ink);
   background:
     linear-gradient(rgba(12, 20, 18, 0.72), rgba(12, 20, 18, 0.82)),
-    url("tierra-vientre-nubes.png") center / cover fixed;
+    url("assets/tierra-vientre-nubes.png") center / cover fixed;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -96,7 +96,7 @@ a {
   border-radius: 8px;
   background:
     linear-gradient(rgba(7, 11, 16, 0.28), rgba(7, 11, 16, 0.9)),
-    url("galaxias-red-viva.png") center / cover;
+    url("assets/galaxias-red-viva.png") center / cover;
   box-shadow: var(--shadow);
 }
 
@@ -170,6 +170,7 @@ a {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(20px, 2.1vw, 24px);
   line-height: 1.84;
+  overflow-wrap: break-word;
 }
 
 .reader-content h1,
@@ -301,6 +302,8 @@ a {
   }
 
   .reader-content h1 {
+    font-size: clamp(32px, 10vw, 42px);
+    overflow-wrap: anywhere;
     text-align: left;
   }
 
