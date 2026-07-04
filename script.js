@@ -75,8 +75,144 @@ const VIDEO_LIBRARY = [
     ],
     youtubeClips: [
       {
-        label: "Lista de reproducción",
-        url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
+        label: "Lista 12",
+        title: "Antes de las estrellas",
+        url: "https://youtu.be/Ghd5rXRrHuw",
+      },
+      {
+        label: "Lista 13",
+        title: "Antes de las estrellas - versión adicional",
+        url: "https://youtu.be/DM1KwkeW3HA",
+      },
+      {
+        label: "Lista 14",
+        title: "El templo eres tú",
+        url: "https://youtu.be/8XfBmzcARhA",
+      },
+      {
+        label: "Lista 15",
+        title: "Los templos",
+        url: "https://youtu.be/aj_L2TqOFpA",
+      },
+      {
+        label: "Lista 16",
+        title: "Los que aún nos buscan",
+        url: "https://youtu.be/DnfxVM5QlcQ",
+      },
+      {
+        label: "Lista 17",
+        title: "El joven devoto",
+        url: "https://youtu.be/_mroC5UCdEA",
+      },
+      {
+        label: "Lista 18",
+        title: "El vacío",
+        url: "https://youtu.be/_rEFd6JbaOk",
+      },
+      {
+        label: "Lista 19",
+        title: "Las ideas muertas",
+        url: "https://youtu.be/S5a6SdYs4KI",
+      },
+      {
+        label: "Lista 20",
+        title: "La tierra protesta",
+        url: "https://youtu.be/9Fw40lP9RaQ",
+      },
+      {
+        label: "Lista 21",
+        title: "La herida",
+        url: "https://youtu.be/WRJkEsksFr4",
+      },
+      {
+        label: "Lista 22",
+        title: "El vacío",
+        url: "https://youtu.be/VEmXJhqYjxA",
+      },
+      {
+        label: "Lista 23",
+        title: "La voluntad",
+        url: "https://youtu.be/X6zTHTatM80",
+      },
+      {
+        label: "Lista 24",
+        title: "El lenguaje de los maestros",
+        url: "https://youtu.be/RIwkybpI9Do",
+      },
+      {
+        label: "Lista 25",
+        title: "Los maestros",
+        url: "https://youtu.be/Do_MCzUcXwo",
+      },
+      {
+        label: "Lista 26",
+        title: "Los testigos del recuerdo",
+        url: "https://youtu.be/fzaMoKv-k0U",
+      },
+      {
+        label: "Lista 27",
+        title: "Los símbolos",
+        url: "https://youtu.be/7Ag-gr-mOO4",
+      },
+      {
+        label: "Lista 28",
+        title: "Los que buscaron el regreso",
+        url: "https://youtu.be/UYtulj3-Qis",
+      },
+      {
+        label: "Lista 29",
+        title: "La división después de la fragmentación",
+        url: "https://youtu.be/Aa2h7AA4NzE",
+      },
+      {
+        label: "Lista 30",
+        title: "Babel",
+        url: "https://youtu.be/qw93cbVmLZM",
+      },
+      {
+        label: "Lista 31",
+        title: "El primer caballo de Troya",
+        url: "https://youtu.be/QKRajZjX-gM",
+      },
+      {
+        label: "Lista 32",
+        title: "El primer hombre y la primera mujer",
+        url: "https://youtu.be/nDr4LiYXGqA",
+      },
+      {
+        label: "Lista 33",
+        title: "La llegada 2",
+        url: "https://youtu.be/uBBIA0Ufsf4",
+      },
+      {
+        label: "Lista 34",
+        title: "La llegada",
+        url: "https://youtu.be/v_7Xwb1QTN4",
+      },
+      {
+        label: "Lista 35",
+        title: "Recorríamos el mundo",
+        url: "https://youtu.be/9kOALWQHVEA",
+      },
+      {
+        label: "Lista 36",
+        title: "Todos podían sentirse",
+        url: "https://youtu.be/qYDoNqLyq4o",
+      },
+      {
+        label: "Lista 37",
+        title: "Antes de las estrellas",
+        url: "https://youtu.be/vc3Pns5gZoU",
+      },
+      {
+        label: "Lista 38",
+        title: "El oro anunaki",
+        url: "https://youtu.be/GzNPkTtZMSo",
+      },
+      {
+        label: "Lista 39",
+        title: "Babel nunca fue una torre",
+        url: "https://youtu.be/huBNuInqPdM",
       },
     ],
   },
@@ -149,46 +285,57 @@ const VIDEO_LIBRARY = [
     youtubeClips: [
       {
         label: "Pieza 1",
+        title: "Somos el legado",
         url: "https://youtu.be/s4yxolmFrVU?si=Ner5ryq-udCTnHKH",
       },
       {
         label: "Pieza 2",
+        title: "Todo vibra",
         url: "https://youtu.be/f3tqX5cWNms?si=oOFDOglqnRepGeO4",
       },
       {
         label: "Pieza 3",
+        title: "Vivimos el lienzo",
         url: "https://youtu.be/NreGDYoWPSs?si=UmN1cjPDuUd-S-hY",
       },
       {
         label: "Pieza 4",
+        title: "La amplitud",
         url: "https://youtu.be/9LfSOOwjysI?si=PFiNOli4Y-YgasEs",
       },
       {
         label: "Pieza 5",
+        title: "La frecuencia",
         url: "https://youtu.be/4PpCAbAUuf8?si=WsHjrG1xnempnA6K",
       },
       {
         label: "Pieza 6",
+        title: "La mente es antena",
         url: "https://youtu.be/1k3tgve8wpo?si=DVvCTHWAaru_kKWe",
       },
       {
         label: "Pieza 7",
+        title: "Los reinos son memoria viva",
         url: "https://youtu.be/TXwX4OaWTKI?si=03QpTrUcXOxwAQPa",
       },
       {
         label: "Pieza 8",
+        title: "Los seres de los reinos",
         url: "https://youtu.be/mzuxKkuogEE?si=tSESDm9HxnujszmF",
       },
       {
         label: "Pieza 9",
+        title: "Amor y apatía",
         url: "https://youtu.be/jNzkb1MqgfY?si=Z7UPViWFgqObAFMb",
       },
       {
         label: "Pieza 10",
+        title: "La responsabilidad frecuencial",
         url: "https://youtu.be/_zAnnjoVh-A?si=AyW8B0DFPKXX3sSA",
       },
       {
         label: "Pieza 11",
+        title: "La materia aún confiaba",
         url: "https://youtu.be/OTTwc8OQqdA?si=6TXri8uhg_g-i_uH",
       },
     ],
@@ -679,7 +826,8 @@ function renderClipGrid() {
   grid.innerHTML = clips.map((clip) => `
     <a class="clip-card" href="${clip.url}" target="_blank" rel="noopener">
       <span>${clip.label}</span>
-      <strong>Ver en ${platform}</strong>
+      <strong>${clip.title || `Ver en ${platform}`}</strong>
+      <small>${clip.note || `Abrir en ${platform}`}</small>
     </a>
   `).join("");
 }
