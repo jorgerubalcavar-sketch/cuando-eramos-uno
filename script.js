@@ -73,6 +73,12 @@ const VIDEO_LIBRARY = [
         url: "https://www.tiktok.com/@jorgerubalcavarios/video/7650356996805315848?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
       },
     ],
+    youtubeClips: [
+      {
+        label: "Lista de reproducción",
+        url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
+      },
+    ],
   },
   {
     id: "reglas-resonancia",
@@ -489,7 +495,7 @@ const STORY_STEPS = [
   },
 ];
 
-let activeVideoIndex = 0;
+let activeVideoIndex = 1;
 let activeFormat = "youtube";
 let activeStoryIndex = 0;
 
@@ -661,9 +667,10 @@ function renderClipGrid() {
   if (title) title.textContent = `Piezas publicadas en ${platform}`;
 
   if (!clips.length) {
+    if (title) title.textContent = `Sin piezas separadas en ${platform}`;
     grid.innerHTML = `
       <div class="clip-empty">
-        Cuando este capítulo tenga piezas publicadas en ${platform}, sus enlaces aparecerán aquí.
+        Este capítulo ya tiene su salida principal arriba. Cuando haya piezas separadas en ${platform}, aparecerán aquí.
       </div>
     `;
     return;
