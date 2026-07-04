@@ -8,7 +8,7 @@ const VIDEO_LIBRARY = [
     status: "disponible",
     description:
       "Cosmología viva, Tierra madre, primera humanidad, tríadas, materia confiada y mundo original.",
-    poster: "assets/video/video-largo-1-poster.jpg",
+    poster: "video-largo-1-poster.jpg",
     youtube: {
       label: "YouTube",
       url: "https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B",
@@ -81,7 +81,7 @@ const VIDEO_LIBRARY = [
     status: "YouTube y TikTok publicados",
     description:
       "Amplitud como caudal, frecuencia como cadencia, mente antena, Reinos vivos y Responsabilidad Frecuencial.",
-    poster: "assets/piedra-recibe-primordial.png",
+    poster: "piedra-recibe-primordial.png",
     youtube: {
       label: "YouTube",
       url: "https://youtu.be/s4yxolmFrVU?si=Ner5ryq-udCTnHKH",
@@ -194,7 +194,7 @@ const VIDEO_LIBRARY = [
     status: "en escritura",
     description:
       "Las estrellas que miran, la noche, lo seco, el sol directo y los visitantes acorazados que no podíamos sentir.",
-    poster: "assets/cielo-abierto-estrellas.png",
+    poster: "cielo-abierto-estrellas.png",
     youtube: {
       label: "YouTube",
       url: "",
@@ -220,7 +220,7 @@ const VIDEO_LIBRARY = [
     status: "en desarrollo",
     description:
       "La Fragmentación entra como clasificación, después intervención, lenguaje, mentira, propiedad y Babel.",
-    poster: "assets/ecosistema-unidad.png",
+    poster: "ecosistema-unidad.png",
     youtube: { label: "YouTube", url: "", fallbackSrc: "", ratio: "wide" },
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
@@ -232,28 +232,28 @@ const ORIGIN_CHAPTERS = [
     number: "Video 1",
     title: "El universo dormía",
     line: "Al principio, las partes estaban demasiado separadas para sentirse.",
-    image: "assets/universo-dormido.png",
+    image: "universo-dormido.png",
     url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648397881853873426?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
   },
   {
     number: "Video 2",
     title: "Nacimiento de la diversidad",
     line: "La vida quiso más movimiento, más memoria y más experiencia.",
-    image: "assets/ecosistema-unidad.png",
+    image: "ecosistema-unidad.png",
     url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648427430801132818?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
   },
   {
     number: "Video 3",
     title: "La Tierra como madre amorosa",
     line: "Nubes luminosas, lluvia cálida y luz suave para abrir los ojos sin romperlos.",
-    image: "assets/tierra-vientre-nubes.png",
+    image: "tierra-vientre-nubes.png",
     url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648633777958292754?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
   },
   {
     number: "Video 4",
     title: "La primera humanidad",
     line: "Humanos, animales, árboles, ríos y piedras conectados por Resonancia.",
-    image: "assets/triada-primordial-lluvia.png",
+    image: "triada-primordial-lluvia.png",
     url: "https://www.tiktok.com/@jorgerubalcavarios/video/7648726281609022738?is_from_webapp=1&sender_device=pc&web_id=7649052957916579329",
   },
 ];
@@ -448,7 +448,7 @@ const STORY_STEPS = [
     title: "La Tierra dosificó la luz.",
     text:
       "Antes de la noche visible, la Tierra cubrió el cielo con nubes luminosas. No ocultaba el mundo: lo cuidaba.",
-    image: "assets/tierra-vientre-nubes.png",
+    image: "tierra-vientre-nubes.png",
     alt: "Tierra primigenia envuelta en nubes luminosas como vientre protector.",
   },
   {
@@ -457,7 +457,7 @@ const STORY_STEPS = [
     title: "Nunca necesitaron multitudes para estar unidos.",
     text:
       "Los primordiales vivían en tríadas: pequeño, joven y adulto. Separados por mares, seguían sintiendo una misma red.",
-    image: "assets/triada-primordial-lluvia.png",
+    image: "triada-primordial-lluvia.png",
     alt: "Tres humanos primordiales bajo lluvia cálida.",
   },
   {
@@ -466,7 +466,7 @@ const STORY_STEPS = [
     title: "La materia confiaba.",
     text:
       "La piedra no era esclava ni objeto muerto. Era joven, inocente, abierta. Se reconocía en el humano y respondía sin esperar traición.",
-    image: "assets/piedra-recibe-primordial.png",
+    image: "piedra-recibe-primordial.png",
     alt: "Piedra viva suavizando su forma para recibir a un primordial.",
   },
   {
@@ -475,7 +475,7 @@ const STORY_STEPS = [
     title: "La Tierra hablaba desde todos sus Reinos.",
     text:
       "Los mares enseñaban memoria, las cavernas duración, los volcanes transformación y los animales formas distintas de presencia.",
-    image: "assets/mundos-acuaticos.png",
+    image: "mundos-acuaticos.png",
     alt: "Humanos primordiales junto a criaturas antiguas bajo el mar.",
   },
   {
@@ -484,7 +484,7 @@ const STORY_STEPS = [
     title: "Las estrellas nos llamaron desde lejos.",
     text:
       "El cielo abierto no fue herida al principio. Fue exposición anticipada: noche, distancia, sol directo y una curiosidad infinita.",
-    image: "assets/cielo-abierto-estrellas.png",
+    image: "cielo-abierto-estrellas.png",
     alt: "Primeras estrellas visibles sobre la Tierra primordial.",
   },
 ];
@@ -517,6 +517,22 @@ function renderVideo() {
   title.textContent = episode.title;
   description.textContent = episode.description;
   videoShell.classList.toggle("is-vertical", format.ratio === "vertical");
+
+  if (format.url && activeFormat === "youtube") {
+    videoPlayer.innerHTML = `
+      <iframe
+        src="${getYouTubeEmbed(format.url)}"
+        title="${episode.title} en YouTube"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="video-note">
+        ${format.note || "Video publicado en YouTube."}
+        <a href="${format.url}" target="_blank" rel="noopener">Abrir en YouTube</a>
+      </div>
+    `;
+    return;
+  }
 
   if (format.url) {
     videoPlayer.innerHTML = `
