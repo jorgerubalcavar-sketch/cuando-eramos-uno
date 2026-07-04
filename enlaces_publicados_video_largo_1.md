@@ -6,6 +6,48 @@
 
 - [Abrir lista de reproducción del universo en YouTube](https://www.youtube.com/watch?v=Ghd5rXRrHuw&list=PLEt-rjfyU7_w7GRjPx411z6K12UaloJ7B)
 
+Videos detectados en la lista pública de YouTube el 4 de julio de 2026:
+
+1. [La materia aún confiaba](https://youtu.be/OTTwc8OQqdA)
+2. [La responsabilidad frecuencial](https://youtu.be/_zAnnjoVh-A)
+3. [Amor y apatía](https://youtu.be/jNzkb1MqgfY)
+4. [Los seres de los reinos](https://youtu.be/mzuxKkuogEE)
+5. [Los reinos son memoria viva](https://youtu.be/TXwX4OaWTKI)
+6. [La mente es antena](https://youtu.be/1k3tgve8wpo)
+7. [La frecuencia](https://youtu.be/4PpCAbAUuf8)
+8. [La amplitud](https://youtu.be/9LfSOOwjysI)
+9. [Vivimos el lienzo](https://youtu.be/NreGDYoWPSs)
+10. [Todo vibra](https://youtu.be/f3tqX5cWNms)
+11. [Somos el legado](https://youtu.be/s4yxolmFrVU)
+12. [Antes de las estrellas](https://youtu.be/Ghd5rXRrHuw)
+13. [Antes de las estrellas - versión adicional](https://youtu.be/DM1KwkeW3HA)
+14. [El templo eres tú](https://youtu.be/8XfBmzcARhA)
+15. [Los templos](https://youtu.be/aj_L2TqOFpA)
+16. [Los que aún nos buscan](https://youtu.be/DnfxVM5QlcQ)
+17. [El joven devoto](https://youtu.be/_mroC5UCdEA)
+18. [El vacío](https://youtu.be/_rEFd6JbaOk)
+19. [Las ideas muertas](https://youtu.be/S5a6SdYs4KI)
+20. [La tierra protesta](https://youtu.be/9Fw40lP9RaQ)
+21. [La herida](https://youtu.be/WRJkEsksFr4)
+22. [El vacío](https://youtu.be/VEmXJhqYjxA)
+23. [La voluntad](https://youtu.be/X6zTHTatM80)
+24. [El lenguaje de los maestros](https://youtu.be/RIwkybpI9Do)
+25. [Los maestros](https://youtu.be/Do_MCzUcXwo)
+26. [Los testigos del recuerdo](https://youtu.be/fzaMoKv-k0U)
+27. [Los símbolos](https://youtu.be/7Ag-gr-mOO4)
+28. [Los que buscaron el regreso](https://youtu.be/UYtulj3-Qis)
+29. [La división después de la fragmentación](https://youtu.be/Aa2h7AA4NzE)
+30. [Babel](https://youtu.be/qw93cbVmLZM)
+31. [El primer caballo de Troya](https://youtu.be/QKRajZjX-gM)
+32. [El primer hombre y la primera mujer](https://youtu.be/nDr4LiYXGqA)
+33. [La llegada 2](https://youtu.be/uBBIA0Ufsf4)
+34. [La llegada](https://youtu.be/v_7Xwb1QTN4)
+35. [Recorríamos el mundo](https://youtu.be/9kOALWQHVEA)
+36. [Todos podían sentirse](https://youtu.be/qYDoNqLyq4o)
+37. [Antes de las estrellas](https://youtu.be/vc3Pns5gZoU)
+38. [El oro anunaki](https://youtu.be/GzNPkTtZMSo)
+39. [Babel nunca fue una torre](https://youtu.be/huBNuInqPdM)
+
 ### TikTok
 
 Asumido por ahora:
