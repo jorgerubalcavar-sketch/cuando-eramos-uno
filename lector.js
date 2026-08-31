@@ -14,8 +14,14 @@ const READER_DOCS = {
   "libro-v5": {
     title: "Cuando éramos uno - Manuscrito base v5",
     description:
-      "La versión más reciente del libro fundacional: lienzo vivo, materia que confía, visitantes y Segunda Unidad.",
+      "La versión más reciente del libro fundacional: Resonancia, memoria material, Tierra viva y Unidad consciente.",
     file: "cuando_eramos_uno_v5.md",
+  },
+  "cambios-shorts-2-3-666": {
+    title: "Registro editorial - Shorts 2 a 3.666",
+    description:
+      "Qué se integró al libro, dónde se hizo y qué continuidades del canon se preservaron.",
+    file: "REGISTRO_CAMBIOS_SHORTS_2_A_3_666.md",
   },
   "resumen-ia": {
     title: "Resumen maestro para otra IA",
