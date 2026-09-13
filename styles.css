@@ -134,6 +134,16 @@ p {
   margin-top: 0;
 }
 
+h1,
+h2,
+h3,
+.button,
+.video-tab,
+.story-button {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
 h1 {
   margin-bottom: 22px;
   font-family: Georgia, "Times New Roman", serif;
@@ -726,15 +736,23 @@ figcaption {
 
 .archive {
   display: grid;
-  grid-template-columns: minmax(280px, 1fr) minmax(280px, 0.78fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
   align-items: start;
   color: var(--bone);
   background: var(--forest);
 }
 
+.archive > div:first-child {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
 .archive p {
   max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
   color: var(--muted);
   font-size: 18px;
 }
@@ -746,12 +764,15 @@ figcaption {
 .archive-links {
   display: grid;
   gap: 12px;
+  min-width: 0;
 }
 
 .archive-links a {
+  min-width: 0;
   padding: 18px 20px;
   text-decoration: none;
   font-weight: 780;
+  overflow-wrap: anywhere;
 }
 
 .archive-links a:hover {
@@ -759,14 +780,22 @@ figcaption {
 }
 
 .reading-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .reading-grid a {
   display: grid;
   min-height: 154px;
   align-content: start;
+  justify-items: center;
   gap: 7px;
+  text-align: center;
+}
+
+.reading-grid span,
+.reading-grid strong,
+.reading-grid small {
+  max-width: 100%;
 }
 
 .reading-grid span,
@@ -880,6 +909,10 @@ figcaption {
   }
 
   .series-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .reading-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

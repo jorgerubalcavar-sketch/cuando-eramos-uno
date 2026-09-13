@@ -11,12 +11,6 @@ const READER_DOCS = {
       "El documento maestro del canon filosófico vigente, septiembre de 2026.",
     file: "tratado_filosofico_septiembre_2026.md",
   },
-  "paquete-editorial-septiembre-2026": {
-    title: "Paquete editorial inicial",
-    description:
-      "Sinopsis, descripción comercial, biografía del autor, categorías y estructura editorial propuesta.",
-    file: "paquete_editorial_septiembre_2026.md",
-  },
   tratado: {
     title: "Tratado de la Unidad y la Fragmentación",
     description:
@@ -40,12 +34,6 @@ const READER_DOCS = {
     description:
       "Qué se integró al libro, dónde se hizo y qué continuidades del canon se preservaron.",
     file: "REGISTRO_CAMBIOS_SHORTS_2_A_3_666.md",
-  },
-  "resumen-ia": {
-    title: "Resumen maestro para otra IA",
-    description:
-      "Canon operativo para conservar lo sutil: primordiales, amplitud, frecuencia, Resonancia y palabras correctas.",
-    file: "resumen_maestro_ia.md",
   },
   video3: {
     title: "Video Largo 3 - El cielo infinito y los acorazados",
