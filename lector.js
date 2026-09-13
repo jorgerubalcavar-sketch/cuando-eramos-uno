@@ -1,4 +1,22 @@
 const READER_DOCS = {
+  "universo-septiembre-2026": {
+    title: "Cuando éramos uno — Universo actualizado",
+    description:
+      "La versión narrativa vigente del universo, actualizada en septiembre de 2026.",
+    file: "universo_actualizado_septiembre_2026.md",
+  },
+  "tratado-septiembre-2026": {
+    title: "Tratado filosófico del Todo, la conciencia y el estar siendo",
+    description:
+      "El documento maestro del canon filosófico vigente, septiembre de 2026.",
+    file: "tratado_filosofico_septiembre_2026.md",
+  },
+  "paquete-editorial-septiembre-2026": {
+    title: "Paquete editorial inicial",
+    description:
+      "Sinopsis, descripción comercial, biografía del autor, categorías y estructura editorial propuesta.",
+    file: "paquete_editorial_septiembre_2026.md",
+  },
   tratado: {
     title: "Tratado de la Unidad y la Fragmentación",
     description:
@@ -68,7 +86,7 @@ const READER_DOCS = {
 };
 
 const params = new URLSearchParams(window.location.search);
-const selectedDoc = READER_DOCS[params.get("doc")] ? params.get("doc") : "tratado";
+const selectedDoc = READER_DOCS[params.get("doc")] ? params.get("doc") : "universo-septiembre-2026";
 const doc = READER_DOCS[selectedDoc];
 const titleEl = document.querySelector("#readerTitle");
 const descriptionEl = document.querySelector("#readerDescription");
