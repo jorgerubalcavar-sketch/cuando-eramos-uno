@@ -378,6 +378,109 @@ const VIDEO_LIBRARY = [
     tiktok: { label: "TikTok", url: "", fallbackSrc: "", ratio: "vertical" },
     clips: [],
   },
+  {
+    id: "mundo-draconiano",
+    number: "YouTube · Septiembre 2026",
+    title: "El mundo draconiano y el encuentro dolicocéfalo",
+    status: "15 videos publicados",
+    description:
+      "La conciencia como relación, el mundo draconiano, sus pueblos, el encuentro con los dolicocéfalos y el puente que comenzó a transformar a ambas especies.",
+    poster: "arquitectura-piedra-viva.png",
+    youtube: {
+      label: "YouTube",
+      url: "https://www.youtube.com/shorts/8ewq9sqUitg",
+      cta: "Ver el estreno más reciente",
+      note: "Estreno más reciente del canal. Abajo están los últimos 15 videos, del más nuevo al más antiguo.",
+      fallbackSrc: "",
+      ratio: "vertical",
+    },
+    tiktok: {
+      label: "TikTok",
+      url: "",
+      cta: "Ver en TikTok",
+      note: "Esta selección reúne las publicaciones recientes verificadas en el canal de YouTube.",
+      fallbackSrc: "",
+      ratio: "vertical",
+    },
+    clips: [],
+    youtubeClips: [
+      {
+        label: "12 sep 2026",
+        title: "La realidad dejó de obedecerles",
+        url: "https://www.youtube.com/shorts/8ewq9sqUitg",
+      },
+      {
+        label: "11 sep 2026",
+        title: "Lo que aprendieron no les pertenecía",
+        url: "https://www.youtube.com/shorts/8mRpAIZIe58",
+      },
+      {
+        label: "10 sep 2026",
+        title: "El puente necesitaba dos orillas",
+        url: "https://www.youtube.com/shorts/Gllkz8MQ4hI",
+      },
+      {
+        label: "9 sep 2026",
+        title: "El otro también estaba mirando",
+        url: "https://www.youtube.com/shorts/ydehNkKtXG8",
+      },
+      {
+        label: "8 sep 2026",
+        title: "Aprendieron a necesitar al otro",
+        url: "https://www.youtube.com/shorts/mSV8msYiBXc",
+      },
+      {
+        label: "7 sep 2026",
+        title: "El dragón que quiso ser eterno",
+        url: "https://www.youtube.com/shorts/7_9jUWA6pF0",
+      },
+      {
+        label: "5 sep 2026",
+        title: "Su tierra también los amaba",
+        url: "https://www.youtube.com/shorts/OdIubOeQfvs",
+      },
+      {
+        label: "4 sep 2026",
+        title: "Cuando la diferencia se convirtió en destino",
+        url: "https://www.youtube.com/shorts/-PVlEIGE0Vg",
+      },
+      {
+        label: "4 sep 2026",
+        title: "Un mundo, muchas formas de sobrevivir",
+        url: "https://www.youtube.com/shorts/Ajo1Wo34pO0",
+      },
+      {
+        label: "3 sep 2026",
+        title: "Un mundo más duro",
+        url: "https://www.youtube.com/shorts/if5-6kyGyM0",
+      },
+      {
+        label: "1 sep 2026",
+        title: "Si tuvieras fe como un granito de mostaza",
+        url: "https://www.youtube.com/shorts/IJiybKRzZPg",
+      },
+      {
+        label: "1 sep 2026",
+        title: "Nos encomendaron cuidar de toda la creación",
+        url: "https://www.youtube.com/shorts/JdRWsAnDbLw",
+      },
+      {
+        label: "31 ago 2026",
+        title: "Antes que te formaras dentro del vientre de tu madre",
+        url: "https://www.youtube.com/shorts/aBuRhDlcPwA",
+      },
+      {
+        label: "31 ago 2026",
+        title: "La vida no tiene pausa",
+        url: "https://www.youtube.com/shorts/WaCY9jfueYg",
+      },
+      {
+        label: "30 ago 2026",
+        title: "Un punto no es el cuadro completo",
+        url: "https://www.youtube.com/shorts/R2ffs1y3tDU",
+      },
+    ],
+  },
 ];
 
 const ORIGIN_CHAPTERS = [
@@ -642,7 +745,7 @@ const STORY_STEPS = [
   },
 ];
 
-let activeVideoIndex = 1;
+let activeVideoIndex = VIDEO_LIBRARY.length - 1;
 let activeFormat = "youtube";
 let activeStoryIndex = 0;
 
@@ -651,7 +754,7 @@ function isExternalUrl(src) {
 }
 
 function getYouTubeEmbed(src) {
-  const match = src.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&?/]+)/i);
+  const match = src.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^&?/]+)/i);
   return match ? `https://www.youtube.com/embed/${match[1]}` : src;
 }
 

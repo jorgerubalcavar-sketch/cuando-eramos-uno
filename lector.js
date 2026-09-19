@@ -1,75 +1,15 @@
 const READER_DOCS = {
   "universo-septiembre-2026": {
-    title: "Cuando éramos uno — Universo actualizado",
+    title: "Cuando éramos uno — Universo canónico vigente",
     description:
-      "La versión narrativa vigente del universo, actualizada en septiembre de 2026.",
+      "La narrativa vigente, revisada el 18 de septiembre de 2026. Sustituye las versiones públicas anteriores.",
     file: "universo_actualizado_septiembre_2026.md",
   },
   "tratado-septiembre-2026": {
     title: "Tratado filosófico del Todo, la conciencia y el estar siendo",
     description:
-      "El documento maestro del canon filosófico vigente, septiembre de 2026.",
+      "El canon filosófico vigente, revisado el 18 de septiembre de 2026. Sustituye las formulaciones públicas anteriores.",
     file: "tratado_filosofico_septiembre_2026.md",
-  },
-  tratado: {
-    title: "Tratado de la Unidad y la Fragmentación",
-    description:
-      "La filosofía del universo: Todo, Unidad, Fragmentación, Resonancia, materia viva y Segunda Unidad.",
-    file: "tratado_unidad_fragmentacion.md",
-  },
-  biblia: {
-    title: "Biblia del universo",
-    description:
-      "La compilación ontológica y narrativa: Todo, Unidad, Fragmentación, Tierra viva y Reinos.",
-    file: "biblia_del_universo.md",
-  },
-  "libro-v5": {
-    title: "Cuando éramos uno - Manuscrito base v5",
-    description:
-      "La versión más reciente del libro fundacional: Resonancia, memoria material, Tierra viva y Unidad consciente.",
-    file: "cuando_eramos_uno_v5.md",
-  },
-  "cambios-shorts-2-3-666": {
-    title: "Registro editorial - Shorts 2 a 3.666",
-    description:
-      "Qué se integró al libro, dónde se hizo y qué continuidades del canon se preservaron.",
-    file: "REGISTRO_CAMBIOS_SHORTS_2_A_3_666.md",
-  },
-  video3: {
-    title: "Video Largo 3 - El cielo infinito y los acorazados",
-    description:
-      "Memoria corregida del tercer video largo: estrellas, noche, lo seco, sol directo y visitantes cerrados.",
-    file: "video_largo_3_trabajo.md",
-  },
-  resonancia: {
-    title: "Ley de Resonancia Material",
-    description:
-      "Reglas de materia, amplitud, transformación, energía y comunión con lo vivo.",
-    file: "ley_de_resonancia_material.md",
-  },
-  responsabilidad: {
-    title: "Responsabilidad Frecuencial",
-    description:
-      "El humano como nodo de elección: frecuencia, Reinos, mundo vivo y cuidado de la materia.",
-    file: "ley_de_responsabilidad_frecuencial.md",
-  },
-  recopilacion: {
-    title: "Recopilación del universo",
-    description:
-      "Resumen maestro para próximos libros, videos largos, shorts y desarrollo del canon.",
-    file: "recopilacion_universo.md",
-  },
-  videos: {
-    title: "Videos publicados",
-    description:
-      "Registro de enlaces de YouTube, TikTok y ruta narrativa del primer bloque audiovisual.",
-    file: "enlaces_publicados_video_largo_1.md",
-  },
-  bibliografia: {
-    title: "Bibliografía de consulta",
-    description:
-      "Mapa de autores, textos y tradiciones para investigar las raíces filosóficas, espirituales y científicas del universo.",
-    file: "bibliografia_consulta.md",
   },
 };
 

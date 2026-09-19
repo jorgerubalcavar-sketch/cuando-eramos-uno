@@ -4,7 +4,7 @@
 
 Autor: Jorge Rubalcava Ríos
 
-Documento maestro — Septiembre 2026
+Documento maestro — Revisión canónica vigente · 18 de septiembre de 2026
 
 ## PROPÓSITO
 
@@ -34,7 +34,7 @@ La materia participa de relaciones. Masa, energía, frecuencia, amplitud, memori
 
 ### 3. CONCIENCIA
 
-La conciencia introduce una capacidad singular: experimentar, reconocer circunstancias y elegir dentro de ellas. No elimina los condicionamientos del cuerpo, la historia o el ambiente; abre posibilidades dentro de ellos.
+La conciencia introduce una capacidad singular: experimentar, reconocer circunstancias y, cuando existe libertad suficiente, elegir dentro de ellas. No elimina los condicionamientos del cuerpo, la historia o el ambiente; abre posibilidades dentro de ellos. Actuar no demuestra por sí solo que haya ocurrido una elección consciente: el instinto, el miedo, el trauma y la obediencia también pueden producir actos.
 
 ### 4. EL PRESENTE Y EL ESTAR SIENDO
 
@@ -142,19 +142,25 @@ La relación hace posible la comunicación, no necesariamente al revés. Dos ser
 
 No necesitan pensar lo mismo. No necesitan volverse iguales. Necesitan querer encontrarse sin convertir al otro en una prolongación de sí mismos.
 
-### XVII. EL ACTO COMO CUERPO DE LA VOLUNTAD
+### XVII. ACTO, VOLUNTAD Y ELECCIÓN CONSCIENTE
 
-La voluntad interior no es directamente visible. Las palabras pueden declararla, ocultarla o incluso contradecirla. El acto es una de las formas en que una voluntad se vuelve reconocible para otra consciencia.
+La interioridad de otro ser no es directamente visible. Las palabras pueden declararla, ocultarla o contradecirla. Los actos permiten reconocer direcciones posibles de una consciencia, pero no son una prueba automática de libertad plena.
 
-Un ser puede ignorar la biología, la lengua, la cosmología y la historia del otro y, sin embargo, reconocer una elección: cuidar, proteger, esperar, arriesgarse, no disparar, auxiliar a quien no pertenece al propio grupo.
+**Actuar no equivale necesariamente a elegir conscientemente.** Un cuerpo puede reaccionar antes de comprender. El miedo puede disparar. El trauma puede inmovilizar. La costumbre puede repetir. Una orden puede ser obedecida sin que quien actúa haya recuperado todavía suficiente distancia interior para decidir desde el presente.
 
-Este reconocimiento no reduce la alteridad a semejanza. No afirma: el otro vale porque en el fondo es como yo. Afirma algo más preciso: aquello que este ser acaba de elegir también ha sido una posibilidad en mí. La diferencia permanece, pero una voluntad reconoce en el acto ajeno una dirección relacional que puede comprender sin poseer al otro.
+Conviene distinguir tres niveles:
 
-Aquí aparece la fuerza filosófica del ejemplo. Una consciencia no puede elegir por otra. Puede, sin embargo, hacer visible una posibilidad que antes no estaba presente en el horizonte de la segunda.
+- **acto:** aquello que ocurre por medio de un ser;
+- **voluntad:** la orientación, necesidad o impulso que busca realizarse;
+- **elección consciente:** el momento en que una consciencia reconoce alternativas y posee libertad suficiente para asumir una dirección como propia.
 
-Uno cura. Otro observa. El segundo decide no atacar. Un tercero observa esa decisión y vuelve a encontrarse con su propia libertad. La transformación puede propagarse sin convertirse en obediencia.
+La distinción no borra consecuencias ni responsabilidad. Impide simplificarlas. La responsabilidad debe atender al daño causado, a la libertad realmente disponible, a lo que el ser podía comprender y a lo que decide hacer cuando vuelve a tener capacidad de mirar.
 
-La Resonancia, entendida así, no es mente colectiva ni contagio moral. Es propagación relacional de posibilidades entre voluntades que continúan siendo individuales.
+También preserva la fuerza del ejemplo. Un ser puede ignorar la biología, la lengua y la historia del otro y, sin embargo, reconocer en uno de sus actos una posibilidad: cuidar, esperar, arriesgarse, no disparar o auxiliar a quien no pertenece al propio grupo.
+
+Uno cura. Otro observa. El segundo recupera suficiente libertad frente al miedo y baja el arma. Un tercero contempla esa decisión y vuelve a encontrarse con la suya. El ejemplo no elige por nadie; hace visible una posibilidad.
+
+La Resonancia, entendida así, no es mente colectiva ni contagio moral. Es propagación relacional de posibilidades entre consciencias que continúan siendo distintas.
 
 ### XVIII. EXPERIENCIA, AUTORIDAD Y LIBERTAD
 
@@ -172,7 +178,7 @@ Cuando la realidad contradice una creencia, la consciencia enfrenta una elecció
 
 La responsabilidad exige reconocer la relación entre nuestras elecciones y sus consecuencias. No debe confundirse con convertir un acto pasado en esencia definitiva de quien lo realizó.
 
-Existe una diferencia entre decir: esto ocurrió porque elegí hacerlo, y decir: aquello que hice determina para siempre todo lo que soy.
+Existe una diferencia entre decir: participé en esto y debo responder por sus consecuencias, y decir: aquello que hice determina para siempre todo lo que soy. Sólo cuando hubo comprensión y libertad suficientes puede afirmarse además, con precisión: elegí hacerlo.
 
 La primera afirmación permite responsabilidad. La segunda intenta congelar un ser vivo en un instante terminado.
 
@@ -210,7 +216,66 @@ La consciencia cambia antes de que la historia sepa que ha cambiado. Después, i
 
 La apoteosis constante no consiste, entonces, en alcanzar una forma final. Consiste en ampliar una y otra vez aquello con lo que podemos entrar en relación, aquello que podemos reconocer y aquello que somos capaces de elegir sin destruir la diferencia que hace posible seguir conociendo al Todo.
 
+### XXII. EL KAIRÓS: EL MOMENTO PROPIO
+
+El presente existe siempre, pero una consciencia no siempre posee la misma capacidad para habitarlo. El **kairós** es el momento cualitativo en que una posibilidad puede ser verdaderamente recibida y recorrida.
+
+No basta que un camino exista. No basta que otro lo vea. Ni siquiera basta que quien sufre lo necesite. Si la consciencia todavía está gobernada por el miedo, el trauma o una representación que no puede soltar, una intervención prematura puede ser recibida como violencia o producir otra reacción inconsciente.
+
+Esperar el kairós no significa abandonar ni permanecer inactivo. Puede significar dar agua, refugio, alimento, calor, atención y tiempo; sostener la relación sin exigir una respuesta. Nadie podía regresar al presente por el dolicocéfalo inmóvil. Los otros sí podían asegurarse de que, cuando extendiera la mano, el presente todavía estuviera allí.
+
+La paciencia es, por tanto, una forma activa de amor: mantiene abierta una posibilidad sin apropiarse del momento del otro.
+
+### XXIII. AYUDA, PETICIÓN Y NO INTERVENCIÓN
+
+Ayudar no significa recorrer el camino del otro, sino invitarlo a recorrerlo; no cuando tú quieras, ni siquiera cuando lo necesite, sino cuando él te lo pida y esté preparado para recorrerlo. Y eso sólo él lo sabe.
+
+La necesidad no concede autoridad sobre una consciencia. Ver más tampoco otorga derecho a decidir por quien ve menos. La ayuda verdadera ofrece presencia, conocimiento o camino dentro del espacio que el otro ha abierto; no convierte capacidad en dominio.
+
+Esta ética no resuelve toda situación. Cuando el camino de una consciencia amenaza el camino de terceros, la no intervención también tiene consecuencias. La pregunta permanece abierta: ¿hasta dónde llega el respeto por la voluntad ajena cuando otros pueden ser destruidos por ella? El canon no absuelve automáticamente a quien se abstiene ni transforma toda intervención en violencia. Conserva la tensión para que la responsabilidad no sea sustituida por una regla cómoda.
+
+### XXIV. LOS ALTOS BLANCOS O LOS LARGOS
+
+Los dolicocéfalos ya conocían otra consciencia antes de encontrar a los draconianos. La llamaban **Los Largos**. En otros encuentros serían percibidos como **Los Altos Blancos**. Los nombres describen formas parciales de recibirlos, no una esencia agotada.
+
+Cada consciencia sólo podía percibir de ellos aquello que estaba preparada para contener: los dolicocéfalos los veían altos y semejantes a sí mismos; los draconianos podían recibir una forma más cercana a la suya; los Antiguos terrestres los percibieron como seres humanos altos. No era engaño, sino verdad ofrecida en proporción a la capacidad de recibirla.
+
+Los Altos Blancos podían relacionarse con dimensiones y estructuras de la materia que para otros parecían imposibles. Sin embargo, su rasgo decisivo no era cuánto podían transformar, sino cuánto podían abstenerse de transformar. Poder hacerlo no significaba tener derecho a hacerlo.
+
+No son el final de la evolución ni dioses omniscientes. También están siendo. Ven posibilidades más amplias, no un guion inevitable, y las consecuencias de su presencia o de su silencio también los transforman.
+
+### XXV. LA RELACIÓN COMO DIMENSIÓN: AMOR Y APATÍA
+
+El universo de la obra propone una arquitectura filosófica, no una afirmación de física establecida: largo, ancho y profundidad describen extensión; el tiempo, devenir; la emoción, la manera en que una existencia experimenta lo que la afecta; y la relación, aquello que ocurre **entre** existencias sin pertenecer por completo a una sola.
+
+La relación puede habitarse como amor o como apatía. El amor amplía la participación consciente en la existencia del otro sin convertirlo en posesión. La apatía reduce o retira esa participación. El odio todavía es relación deformada; la apatía se aproxima más a dejar de participar.
+
+Por eso el amor de Los Altos Blancos puede parecer indiferencia. No necesita anunciarse, ocupar el camino ajeno ni transformarlo todo para demostrar poder. Tal vez el mayor poder no sea transformar la creación al pasar, sino atravesarla sin impedirle seguir siendo ella misma.
+
+### XXVI. VERDAD, CAPACIDAD Y MISTERIO
+
+Una verdad puede ser real y, sin embargo, no poder ser recibida completa desde toda forma de consciencia. Ofrecer más de lo que el otro puede contener no produce necesariamente comprensión; puede producir ruptura, miedo o rechazo.
+
+La verdad proporcional no debe confundirse con mentira. No consiste en fabricar una falsedad conveniente, sino en ofrecer una relación auténtica dentro del horizonte que el otro puede habitar. La parte nunca debe presentarse como totalidad definitiva. Quien sabe más conserva la obligación de no convertir su ventaja en dominio.
+
+### XXVII. LOS ANTIGUOS Y EL ERROR DE LOS VISITANTES
+
+Al llegar a la Tierra en busca de oro, dolicocéfalos y draconianos no encontraron una civilización reconocible desde sus propias categorías. Vieron seres desnudos, hermafroditas, sin ciudades, herramientas, acumulación ni diferenciación sexual que pudieran interpretar con facilidad. Los clasificaron como primitivos.
+
+No percibieron que los Antiguos participaban de una experiencia compartida: lo vivido por uno podía ser recibido por los demás sin que tuviera que regresar a comunicarlo. Tampoco comprendieron que su aparente simplicidad nacía de una relación profunda con la Tierra, no de ausencia de consciencia.
+
+Los Antiguos, a su vez, vieron visitantes cubiertos, cargados de objetos, provisiones y enormes máquinas; seres incapaces de confiar en que el mundo estaría allí cuando lo necesitaran. Ninguna mirada contenía todavía toda la verdad.
+
+La tragedia comenzó cuando una necesidad legítima —extraer oro para dar tiempo a un planeta herido— convirtió al otro mundo en recurso. Al descubrir que minar era difícil, los visitantes quisieron hacer a los Antiguos más capaces y útiles. Confundieron complejidad tecnológica con profundidad de consciencia y no supieron qué relación podían destruir al intentar añadir capacidades.
+
+### XXVIII. LA LLEGADA DE LA NOCHE
+
+La noche llegó con las naves. La apertura de la antigua cobertura del cielo hizo visibles por primera vez las estrellas y, durante el día, un Sol directo, deslumbrante y abrasador. La mayoría de los Antiguos dirigió su atención hacia ese nuevo cielo; sólo tres estaban físicamente cerca de los visitantes.
+
+Los tres no regresaron a contar lo ocurrido. No hacía falta. Su experiencia ya participaba de la experiencia compartida. Los demás podían recibirla, aunque en aquel momento prefirieran contemplar la noche, las estrellas y el Sol.
+
+Los dos Altos Blancos que guiaban la expedición se separaron al llegar y buscaron al mayor de los Antiguos. No fueron a enseñarle. Querían comprender cómo aquella consciencia se relacionaba con el Todo. Él pudo percibirlos sólo hasta donde estaba preparado; ellos, gracias a una capacidad relacional más amplia, pudieron mirar por un instante el mundo desde la experiencia de los Antiguos. La apertura no fue simétrica, porque la capacidad tampoco lo era.
+
 ## NOTA DE CANON
 
-Este es un documento vivo. Debe revisarse cuando nuevos desarrollos narrativos revelen una contradicción, una formulación insuficiente o una consecuencia filosófica nueva. Las versiones anteriores se conservan como genealogía del pensamiento; este documento representa el canon filosófico vigente.
-
+Este es un documento vivo. Debe revisarse cuando nuevos desarrollos narrativos revelen una contradicción, una formulación insuficiente o una consecuencia filosófica nueva. Esta publicación sustituye las formulaciones anteriores y representa el canon filosófico vigente.
