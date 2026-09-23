@@ -4,7 +4,7 @@
 
 Autor: Jorge Rubalcava Ríos
 
-Documento maestro — Revisión canónica vigente · 18 de septiembre de 2026
+Documento maestro — Revisión canónica vigente · 23 de septiembre de 2026
 
 ## PROPÓSITO
 
@@ -12,7 +12,9 @@ Este tratado acompaña al universo narrativo de Cuando Éramos Uno. No pretende 
 
 ## TESIS CENTRAL
 
-Nada existe fuera del Todo. La existencia no es una colección de seres completamente separados, sino una totalidad viva cuyas partes pueden relacionarse, experimentarse y, cuando aparece conciencia capaz de elección, ampliar deliberadamente la profundidad de esa relación.
+Nada existe fuera del Todo. La existencia no es una colección de seres completamente separados, sino una totalidad viva cuyas partes poseen cualidades, entran en relación y, cuando aparece consciencia capaz de elección, pueden ampliar deliberadamente la profundidad de esa relación.
+
+Ser no depende de ser consciente. Antes de que una parte del universo pudiera experimentarse, ya tenía amplitud y frecuencia: una capacidad de presencia y una manera de acontecer. La consciencia no crea esas cualidades ontológicas; las recibe, las organiza y, al relacionarse, puede convertirlas en mundo vivido.
 
 Un ser vivo no está terminado mientras continúa existiendo. Está siendo. Su historia condiciona el presente, pero no lo agota ni lo determina. El pasado fue; el futuro aún no es. La elección ocurre siempre en el presente y siempre dentro de circunstancias, cuerpos, lugares, emociones y relaciones que participan de aquello que estamos siendo.
 
@@ -28,39 +30,49 @@ La finalidad no es regresar intactos a un estado anterior. El camino es una apot
 
 Nada existe fuera del Todo. Unidad no significa uniformidad. La multiplicidad no está fuera de la totalidad: ocurre dentro de ella.
 
-### 2. MATERIA Y RELACIÓN
+### 2. SER, AMPLITUD Y FRECUENCIA
 
-La materia participa de relaciones. Masa, energía, frecuencia, amplitud, memoria, tensión y disposición forman parte de la manera en que el universo puede responder y relacionarse. La piedra no es una voluntad humana: pero tampoco necesita ser tratada como algo filosóficamente ajeno al Todo.
+Todo lo que es posee alguna amplitud: un caudal o capacidad de presencia, relación y transformación. Todo lo que es posee alguna frecuencia: una cadencia, disposición o modo de acontecer. Amplitud y frecuencia son cualidades ontológicas anteriores a la consciencia. No son todavía pensamiento, intención ni experiencia; son condiciones desde las cuales algo puede entrar en relación.
 
-### 3. CONCIENCIA
+### 3. MATERIA Y RESONANCIA MATERIAL
 
-La conciencia introduce una capacidad singular: experimentar, reconocer circunstancias y, cuando existe libertad suficiente, elegir dentro de ellas. No elimina los condicionamientos del cuerpo, la historia o el ambiente; abre posibilidades dentro de ellos. Actuar no demuestra por sí solo que haya ocurrido una elección consciente: el instinto, el miedo, el trauma y la obediencia también pueden producir actos.
+La materia no es consciencia humana detenida. Participa, sin embargo, en campos, tensiones, memorias de forma, intercambios de energía y posibilidades de respuesta. La Resonancia Material ocurre cuando las cualidades de dos o más formas encuentran compatibilidad suficiente para reorganizar una relación sin que una voluntad abuse de la otra materia ni niegue su historia. La piedra puede ceder, vibrar, fracturarse, calentarse o sostener; no por deliberación moral, sino por las posibilidades reales de lo que está siendo.
 
-### 4. EL PRESENTE Y EL ESTAR SIENDO
+### 4. CONSCIENCIA Y MUNDO
+
+La consciencia es la capacidad de experimentar y organizar un mundo desde una posición. No recibe una realidad neutra como una copia: selecciona, relaciona, interpreta y crea un horizonte de sentido dentro del Todo. Cuando existe libertad suficiente, también puede reconocer alternativas y elegir entre ellas. No elimina los condicionamientos del cuerpo, la historia o el ambiente; abre posibilidades dentro de ellos.
+
+Los animales participan de consciencia. Sienten, recuerdan, anticipan, aprenden, se relacionan y organizan mundos propios según sus cuerpos y sentidos. La singularidad humana no consiste en monopolizar la consciencia, sino en una forma particular de reflexión, simbolización y elección capaz de ampliar el cuidado o multiplicar la Fragmentación.
+
+### 5. EL PRESENTE Y EL ESTAR SIENDO
 
 La identidad se parece más a una imagen formada por innumerables puntos o píxeles que a un retrato terminado. Pausar una vida en un error y afirmar “esto eres” confunde un instante con la totalidad de un proceso. Una experiencia fue; el ser continúa estando siendo mientras exista.
 
-### 5. EL OTRO Y EL CONOCIMIENTO
+### 6. EL OTRO Y EL CONOCIMIENTO
 
 Conocer no consiste únicamente en clasificar algo desde nuestra posición. Una conciencia más amplia intenta comprender también cómo el encuentro modifica al observador, al observado y al mundo común en el que ambos participan. La imagen de la tina de Arquímedes recuerda que no basta mirar el objeto: también importa toda el agua que su presencia desplaza.
 
-### 6. CIRCUNSTANCIA Y LIBERTAD
+### 7. CIRCUNSTANCIA Y LIBERTAD
 
 Cuerpo, ambiente, cultura e historia condicionan. No son necesariamente destino. Dos seres pueden recibir circunstancias semejantes y elegir caminos diferentes. Esta tensión entre lo recibido y lo elegido es central en la obra.
 
-### 7. AMOR
+### 8. AMOR
 
 Amar es permitir que el otro participe de nosotros sin destruir su diferencia. La apertura amorosa amplía aquello que podemos experimentar del Todo. Toda la creación fue creada para que la disfrutes y para que la creación pueda disfrutarte a ti.
 
-### 8. LOS MUNDOS
+### 9. LOS MUNDOS
 
 Un mundo sólo puede ofrecer desde aquello que él mismo está siendo. La Tierra primordial y el mundo draconiano no educan de la misma manera porque sus circunstancias materiales son distintas. Diferencia no implica ausencia de amor. La dureza tampoco implica necesariamente rechazo.
 
-### 9. LENGUAJE, SÍMBOLO Y VERDAD
+### 10. LENGUAJE, SÍMBOLO Y VERDAD
 
 La palabra puede revelar y ocultar. El lenguaje permite compartir abstracciones, pero también separar nombre y esencia, construir ficciones y mentir. La verdad no llega únicamente por razonamiento discursivo: puede ser intuida mediante relación, emoción, belleza, poesía y experiencia, aunque después deba ser examinada.
 
-### 10. APOTEOSIS
+### 11. CONFLICTO Y EVOLUCIÓN
+
+La diferencia produce tensiones y el conflicto puede obligar a una consciencia, una comunidad o un mundo a mostrar lo que todavía no sabe integrar. Por eso el conflicto es una condición frecuente de evolución, pero el daño no es un bien ni una prueba de superioridad. La consciencia puede aprender del dolor sin necesitar provocarlo, glorificarlo ni convertir a las víctimas en instrumentos de una lección.
+
+### 12. APOTEOSIS
 
 La apoteosis no es un punto final ni una segunda unidad escolar o cronológica. Es un movimiento abierto de ampliación consciente hacia el Todo. El camino no consiste en dejar de ser individuo, sino en volver cada vez más permeable la frontera que nos impide reconocer cuánto de los demás ya participa de aquello que somos.
 
@@ -100,13 +112,13 @@ La meta no debe entenderse como inmovilidad final. Si el Padre es el Todo, cada 
 
 ### XII. La apoteosis constante
 
-### XIII. CONSCIENCIA, MIEDO Y MALDAD
+### XIII. ACTO, LIBERTAD Y MAL CONSCIENTE
 
-La aparición de consciencia capaz de elegir no produce automáticamente bondad. Una consciencia puede reconocer parcialmente al otro y, sin embargo, continuar profundamente gobernada por instinto, miedo, trauma, carencia o necesidad de supervivencia.
+La aparición de consciencia no produce automáticamente libertad ni bondad. Una consciencia puede experimentar y organizar un mundo y, sin embargo, continuar profundamente gobernada por instinto, miedo, trauma, carencia, obediencia o necesidad de supervivencia.
 
 Por ello conviene distinguir entre daño y maldad en sentido fuerte. Un ser puede causar un daño enorme creyendo que protege, sobreviviendo desde una neurosis o interpretando al desconocido como amenaza. La responsabilidad no desaparece, pero la estructura moral del acto no es idéntica a la de quien reconoce con suficiente claridad la verdad del otro, comprende el daño que causa, posee libertad suficiente frente a su miedo y aun así elige deliberadamente convertir al otro en instrumento.
 
-La maldad profunda requiere, por tanto, una forma de contradicción consciente: conocer suficientemente la dirección de una relación más verdadera y elegir caminar contra ella. El miedo puede producir violencia antes de que exista esa claridad. Esta distinción no absuelve la violencia; permite comprender su origen sin convertir cada tragedia en una lucha entre esencias buenas y malas.
+El mal consciente requiere, por tanto, una forma de contradicción deliberada: reconocer suficientemente al otro, comprender el daño posible, disponer de libertad real frente al miedo y elegir aun así la dirección que lo convierte en instrumento. El miedo puede producir violencia antes de que exista esa claridad. Esta distinción no absuelve la violencia ni reduce la responsabilidad por sus consecuencias; permite atribuir con mayor precisión cuánto hubo de reacción, cuánto de elección y qué debe hacerse cuando la libertad vuelve a estar disponible.
 
 ### XIV. DE LA NECESIDAD DEL OTRO AL AMOR DEL OTRO
 
@@ -124,7 +136,7 @@ Aprender a cooperar con diferencias familiares no equivale todavía a estar prep
 
 El encuentro con una consciencia extraterrestre rompe ese marco. Cuando no existe memoria compartida, lenguaje común ni conocimiento de las intenciones del otro, el silencio puede ser llenado por el miedo. El instinto interpreta antes de que la consciencia comprenda.
 
-Así puede nacer una guerra sin que ninguno de los pueblos necesite desearla. Bastan miedo, desconocimiento y capacidad de hacer daño. Cada reacción defensiva puede convertirse para el otro en prueba aparente de hostilidad, creando un círculo donde ambas partes se experimentan como víctimas.
+Así puede nacer una guerra sin que ninguno de los pueblos necesite desearla. Bastan miedo, desconocimiento y capacidad de hacer daño. Cada reacción defensiva puede convertirse para el otro en prueba aparente de hostilidad, creando un círculo donde ambas partes se experimentan como víctimas. El primer encuentro dolicocéfalo no demuestra maldad innata en ninguno: muestra dos consciencias organizando el silencio desde mundos incompatibles y actuando antes de comprender. El conflicto transformó a ambos pueblos, pero las muertes no fueron necesarias ni sagradas; fueron el costo trágico de no haber encontrado todavía otra relación.
 
 Este problema será central en el universo: el otro puede convertirse en enemigo mucho antes de haber tenido oportunidad de revelarse como otro.
 
@@ -154,7 +166,7 @@ Conviene distinguir tres niveles:
 - **voluntad:** la orientación, necesidad o impulso que busca realizarse;
 - **elección consciente:** el momento en que una consciencia reconoce alternativas y posee libertad suficiente para asumir una dirección como propia.
 
-La distinción no borra consecuencias ni responsabilidad. Impide simplificarlas. La responsabilidad debe atender al daño causado, a la libertad realmente disponible, a lo que el ser podía comprender y a lo que decide hacer cuando vuelve a tener capacidad de mirar.
+La distinción no borra consecuencias ni responsabilidad. Impide simplificarlas. Existe responsabilidad causal cuando un ser participa en un daño, aunque su libertad haya sido limitada; existe responsabilidad moral en la medida de la comprensión y libertad disponibles; y existe responsabilidad presente en lo que decide hacer cuando recupera capacidad de mirar, reparar y elegir. Ninguna de las tres convierte un acto en esencia eterna.
 
 También preserva la fuerza del ejemplo. Un ser puede ignorar la biología, la lengua y la historia del otro y, sin embargo, reconocer en uno de sus actos una posibilidad: cuidar, esperar, arriesgarse, no disparar o auxiliar a quien no pertenece al propio grupo.
 
@@ -240,7 +252,7 @@ Los dolicocéfalos ya conocían otra consciencia antes de encontrar a los dracon
 
 Cada consciencia sólo podía percibir de ellos aquello que estaba preparada para contener: los dolicocéfalos los veían altos y semejantes a sí mismos; los draconianos podían recibir una forma más cercana a la suya; los Antiguos terrestres los percibieron como seres humanos altos. No era engaño, sino verdad ofrecida en proporción a la capacidad de recibirla.
 
-Los Altos Blancos podían relacionarse con dimensiones y estructuras de la materia que para otros parecían imposibles. Sin embargo, su rasgo decisivo no era cuánto podían transformar, sino cuánto podían abstenerse de transformar. Poder hacerlo no significaba tener derecho a hacerlo.
+Los Altos Blancos son consciencias energéticas avanzadas capaces de presentarse mediante formas que otras consciencias pueden recibir. Perciben e interactúan con campos, amplitudes, frecuencias y estructuras de la materia que para otros permanecen invisibles. Su evolución no se mide por cuánto someten, sino por la precisión con que distinguen relación de abuso: poder reorganizar materia no les concede derecho a forzarla, agotarla ni tratar una consciencia como recurso.
 
 No son el final de la evolución ni dioses omniscientes. También están siendo. Ven posibilidades más amplias, no un guion inevitable, y las consecuencias de su presencia o de su silencio también los transforman.
 
@@ -276,6 +288,18 @@ Los tres no regresaron a contar lo ocurrido. No hacía falta. Su experiencia ya 
 
 Los dos Altos Blancos que guiaban la expedición se separaron al llegar y buscaron al mayor de los Antiguos. No fueron a enseñarle. Querían comprender cómo aquella consciencia se relacionaba con el Todo. Él pudo percibirlos sólo hasta donde estaba preparado; ellos, gracias a una capacidad relacional más amplia, pudieron mirar por un instante el mundo desde la experiencia de los Antiguos. La apertura no fue simétrica, porque la capacidad tampoco lo era.
 
+### XXIX. LAS DOS FRAGMENTACIONES Y EL PECADO ORIGINAL
+
+La **Primera Fragmentación** fue biológica. Los visitantes no dividieron simplemente a los mismos Antiguos en dos mitades: utilizaron sus genes para crear una nueva humanidad sexualmente diferenciada. Para esa humanidad, hombre y mujer fueron condiciones de nacimiento. Para los Antiguos, en cambio, la aparición de algo procedente de su propia continuidad y ahora separado sembró una experiencia desconocida: la posibilidad de perder.
+
+El pecado original no fue el cuerpo, el sexo, el conocimiento ni una desobediencia hereditaria. Fue el miedo: la pérdida de confianza en que el Todo seguiría sosteniendo aquello que se amaba. Su primera manifestación pertenece a aquel acontecimiento, pero no quedó encerrada en el pasado. **El pecado original está siendo cada vez que el miedo organiza la relación y convierte la separación en nuestra verdad.**
+
+La pregunta **«¿Dónde estás?»** no busca una ubicación que el Todo desconozca. Es una llamada a reconocer el propio estado: ¿desde dónde estás viviendo ahora?, ¿desde la confianza o desde el miedo? La desnudez siempre había existido; lo nuevo fue experimentarla como amenaza. La respuesta «la mujer que me diste» muestra la proyección que sigue al miedo: yo, ella y Tú comienzan a vivirse como realidades enfrentadas.
+
+El Todo no expulsó a la humanidad del paraíso. La consciencia dejó de poder experimentarlo desde la confianza y se autoexilió en una relación organizada por vulnerabilidad, posesión y pérdida. No salió ontológicamente del Todo; dejó de sentirse segura dentro de él.
+
+La **Segunda Fragmentación** fue lingüística. El lenguaje hizo posible compartir lo ausente, pero también separar sentir, pensar, decir y actuar. La mentira apareció cuando una palabra pudo caminar sin la experiencia que decía contener. Babel es la culminación de esa ruptura: no sólo multiplicación de idiomas, sino pérdida de la relación capaz de sostener sentido entre lenguas, memorias y mundos diferentes.
+
 ## NOTA DE CANON
 
-Este es un documento vivo. Debe revisarse cuando nuevos desarrollos narrativos revelen una contradicción, una formulación insuficiente o una consecuencia filosófica nueva. Esta publicación sustituye las formulaciones anteriores y representa el canon filosófico vigente.
+Este es un documento vivo. Debe revisarse cuando nuevos desarrollos narrativos revelen una contradicción, una formulación insuficiente o una consecuencia filosófica nueva. Esta publicación representa el canon filosófico vigente.

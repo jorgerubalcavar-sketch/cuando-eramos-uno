@@ -2,13 +2,13 @@ const READER_DOCS = {
   "universo-septiembre-2026": {
     title: "Cuando éramos uno — Universo canónico vigente",
     description:
-      "La narrativa vigente, revisada el 18 de septiembre de 2026. Sustituye las versiones públicas anteriores.",
+      "La narrativa oficial vigente, revisada el 23 de septiembre de 2026.",
     file: "universo_actualizado_septiembre_2026.md",
   },
   "tratado-septiembre-2026": {
     title: "Tratado filosófico del Todo, la conciencia y el estar siendo",
     description:
-      "El canon filosófico vigente, revisado el 18 de septiembre de 2026. Sustituye las formulaciones públicas anteriores.",
+      "El canon filosófico oficial vigente, revisado el 23 de septiembre de 2026.",
     file: "tratado_filosofico_septiembre_2026.md",
   },
 };
